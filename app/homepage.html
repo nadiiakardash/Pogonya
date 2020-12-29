@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="libs/aos/aos.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Головна</title>
+</head>
+<body >
+    <!-- header -->
+        <header class="header">
+            <div id="myNav1" class="overlay-home">
+                <p href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</p>
+                <div class="overlay-content">
+                    <ul class="overlay-navigation">
+                        <li class="overlay-navigation-item"><a href="#">Головна</a></li>
+                        <li class="overlay-navigation-item"><a href="#">Про Погоню</a></li>
+                        <li class="overlay-navigation-item"><a href="#">Про Отців</a></li>
+                        <li class="overlay-navigation-item"><a href="#">Розклад Богослужінь</a></li>
+                        <li class="overlay-navigation-item"><a href="#">Новини</a></li>
+                        <li class="overlay-navigation-item"><a href="#">Молитви</a></li>
+                        <li class="overlay-navigation-item"><a href="#">Свідчення</a></li>
+                        <li class="overlay-navigation-item"><a href="#">Видання</a></li>
+                        <li class="overlay-navigation-item"><a href="#">Контакти</a></li>
+                    </ul>
+                    <p class="overlay-tel">+38 096 313 34 54</p>
+            <p class="overlay-email">pogonia@gmail.com</p>
+            <ul class="ovarlay-lang">
+                <li class="overlay-lang-item">UA</li>
+                <li class="overlay-lang-item">Eng</li>
+            </ul>
+            <div class="overlay-icons">
+                 <img src="img/icons/facebook-black.svg" alt="">
+                 <img src="img/icons/instagram-black.svg" alt="">
+                 <img src="img/icons/youtube-black.svg" alt="">
+            </div>
+            <button class="burger-online-btn"><span><img class="burger-online" src="img/icons/online-play.svg" alt=""></span>Онлайн трансляція</button>
+                </div>
+              </div>
+           <img src="img/icons/burger-white.svg" alt="" onclick="openNav1()" class="home-burger">
+            <div class="header-right">
+                <div class="header-right__first">
+                    <div class="header-right-icons">
+                        <a href="https://facebook.com/" target="_blank"><img src="img/icons/facebook-white.svg" alt="" class="header-right-icons-item"></a>
+                        <a href="https://instagram.com/" target="_blank"><img src="img/icons/instagram-white.svg" alt="" class="header-right-icons-item"></a>
+                        <a href="https://youtube.com/" target="_blank"><img src="img/icons/youtube-white.svg" alt="" class="header-right-icons-item"></a>
+                    </div>
+                    <div class="header-right-info">
+                        <h4 class="header-phone">+38 096 313 34 54</h4>
+                        <h4 class="header-email">pogonia@gmail.com</h4>
+                    </div>
+                    <ul class="header-right-lang">
+                        <li class="header-right-lang-item">Ua</li>
+                        <li class="header-right-lang-item">Eng</li>
+                    </ul>
+                </div>
+
+                <div class="header-right__second">
+                    <ul class="home-navigation">
+                        <li class="home-navigation-item"><a href="#">Головна</a></li>
+                        <li class="home-navigation-item"><a href="#">Про Погоню</a></li>
+                        <li class="home-navigation-item"><a href="#">Про Отців</a></li>
+                        <li class="home-navigation-item"><a href="#">Розклад Богослужінь</a></li>
+                        <li class="home-navigation-item"><a href="#">Новини</a></li>
+                        <li class="home-navigation-item"><a href="#">Молитви</a></li>
+                        <li class="home-navigation-item"><a href="#">Свідчення</a></li>
+                        <li class="home-navigation-item"><a href="#">Видання</a></li>
+                        <li class="home-navigation-item"><a href="#">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-left">
+                <button class="header-button-online"><span><img src="img/icons/online-play.svg" alt=""></span>Онлайн трансляція</button>
+                <button class="donation">Пожертва</button>
+            </div>       
+        </header>     
+       
+    <!-- end of the header --> 
+<div class="main-container" style="height: 100%;">
+   
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image:url(img/slider-bg/slide-bg1.png)">
+                <p class="slider-subtitle">Вас вітає!</p>
+                <h3 class="slider-title">Погінський монастир Успіння Матері Божої</h3>
+            </div>
+              <div class="swiper-slide" style="background-image:url(img/slider-bg/slide-bg-2.png)">
+                <p class="slider-subtitle">Вас вітає!</p>
+                <h3 class="slider-title">Погінський монастир Успіння Матері Божої</h3>
+            </div>
+              <div class="swiper-slide" style="background-image:url(img/slider-bg/slide-bg-3.png)">
+                <p class="slider-subtitle">Вас вітає!</p>
+                <h3 class="slider-title">Погінський монастир Успіння Матері Божої</h3>
+            </div>
+           
+            <!-- <div class="swiper-scrollbar"></div> -->
+            
+            </div>
+            
+          </div>
+          <div class="swiper-container gallery-thumbs">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" ><img src="img/slider-bg/pagination3.png" alt=""></div>
+              <div class="swiper-slide" ><img src="img/slider-bg/pagination4.png" alt=""></div>
+              <div class="swiper-slide" ><img src="img/slider-bg/pagination5.png" alt=""></div> 
+              <div class="swiper-slide" ><img src="img/slider-bg/pagination1.png" alt=""></div> 
+              <div class="swiper-slide" ><img src="img/slider-bg/pagination2.png" alt=""></div>
+              <div class="swiper-scrollbar"></div>
+            </div>
+       
+          </div>
+   </div>      
+    
+ </div> 
+ <a href="map.html" ><h4>як дістатися </h4></a> 
+
+    <div class="about">Про Погоню</div>
+    <h4 class="our-history">Наша історія</h4>
+    <!-- block 2  -->
+   <div class="history">
+       <div class="history-left"  >
+        <img src="img/church-outside.png"  data-aos="fade-right"  alt="" class="history-img1">
+        <img src="img/church-inside.png" data-aos="fade-right"  alt="" class="history-img2">
+       </div>
+       <div class="history-right" data-aos="fade-left">
+           <img src="img/icons/Line-yellow.png" alt="" class="line-center">
+           <div class="history-right-container">
+        <p class="history-subtitle"><span><img src="img/icons/romb.svg" alt=""></span>Історія</p>
+        <h3 class="history-title">про монастир</h3>
+        <p class="history-text1">Morbi aliquam neque a sem gravida, sit amet varius neque tristique. Ut placerat eros ut lectus sollicitudin hendrerit. Donec at neque euismod, dapibus lectus vel, commodo dolor. Duis elit tortor, volutpat vitae odio eget, luctus dignissim diam. Sed lacinia scelerisque mi, ac cursus purus mattis in. Vestibulum ac lorem convallis, maximus dui vel, convallis mauris.  Morbi aliquam neque a sem gravida, sit amet varius neque tristique. </p>
+        <p class="history-text2">Ut placerat eros ut lectus sollicitudin hendrerit. Donec at neque euismod, dapibus lectus vel, commodo dolor. Duis elit tortor, volutpat vitae odio eget, luctus dignissim diam. Sed lacinia scelerisque mi, ac cursus purus mattis in. Vestibulum ac lorem convallis, maximus dui vel, convallis mauris.</p>
+        </div>
+        <img src="img/icons/Line-yellow.png" alt="" class="line-center-bottom">
+    </div>
+   </div>
+
+    <!-- end of block 2 -->
+   
+    <!-- block 3 -->
+  <div class="block3-container">
+      <div class="icons-part">
+          <div class="icons-part-left" data-aos="fade-right">
+          <img src="img/icons/Line-yellow.png" alt="" class="block2-line-top">
+              <div class="icons-part-left-container">
+            <p class="icon-left-subtitle"><span><img src="img/icons/romb.svg" alt=""></span>Історія</p>
+            <h3 class="icon-left-title">Чудотворної Ікони</h3>
+            <hr>
+            <p class="icons-left-text1">Morbi aliquam neque a sem gravida, sit amet varius neque tristique. Ut placerat eros ut lectus sollicitudin hendrerit. Donec at neque euismod, dapibus lectus vel, commodo dolor. Duis elit tortor, volutpat vitae odio eget, luctus dignissim diam. Sed lacinia scelerisque mi, ac cursus purus mattis in. Vestibulum ac lorem convallis, maximus dui vel, convallis mauris.  Morbi aliquam neque a sem gravida, sit amet varius neque tristique. </p>
+            <p class="icons-left-text2">Ut placerat eros ut lectus sollicitudin hendrerit. Donec at neque euismod, dapibus lectus vel, commodo dolor. Duis elit tortor, volutpat vitae odio eget, luctus dignissim diam. Sed lacinia scelerisque mi, ac cursus purus mattis in. Vestibulum ac lorem convallis, maximus dui vel, convallis mauris. </p>
+            <img src="img/icons/Line-yellow.png" alt="" class="block2-line-bottom">
+            </div>
+          </div>
+          <div class="icons-part-right" >
+            <img src="img/icona.png" alt="" data-aos="fade-left" class="icons-right-img1">
+            <img src="img/icon-full.png" alt="" data-aos="fade-left" class="icons-right-img2">
+          </div>
+         
+      </div>
+  </div>
+
+  <div class="schedule-part">
+      <img src="img/icons/bg-ornament.svg" alt="" class="bg-ornament1">
+    <div class="schedule-part-container">
+        <div class="schedule-part-left">
+            <h3 class="schedule-title">Розклад Богослужінь</h3>
+            <hr class="schedule-line">
+             <p class="schedule-left-text">Тут можна розмістити 2-3 рядки тексту про розклад, який представляється або будь-яку важливу інфо</p>
+        </div>
+
+        <div class="schedule-part-right">
+            <div class="schedule-part-right-item">
+                <h5 class="schedule-right-title">будні</h5>
+                <hr class="sch-right-line">
+                <div class="schedule-list-item">
+                   <img src="img/icons/romb.svg" alt=""> 
+                   <p class="sch-list-time">17:00</p>
+                   <p class="sch-list-descr">Вечірня</p>
+                </div>
+                <div class="schedule-list-item">
+                    <img src="img/icons/romb.svg" alt=""> 
+                    <p class="sch-list-time">18:00</p>
+                    <p class="sch-list-descr">Служба Божа</p>
+                 </div>
+            </div>
+
+             <div class="schedule-part-right-item">
+                <h5 class="schedule-right-title">Неділя</h5>
+                <hr class="sch-right-line">
+                <div class="schedule-list-item">
+                   <img src="img/icons/romb.svg" alt=""> 
+                   <p class="sch-list-time">11:00</p>
+                   <p class="sch-list-descr">Утреня</p>
+                </div>
+                <div class="schedule-list-item">
+                    <img src="img/icons/romb.svg" alt=""> 
+                    <p class="sch-list-time">12:00</p>
+                    <p class="sch-list-descr">Служба Божа</p>
+                 </div>
+                 <div class="schedule-list-item">
+                    <img src="img/icons/romb.svg" alt=""> 
+                    <p class="sch-list-time">17:00</p>
+                    <p class="sch-list-descr">Вечірня</p>
+                 </div>
+                 <div class="schedule-list-item">
+                    <img src="img/icons/romb.svg" alt=""> 
+                    <p class="sch-list-time">18:00</p>
+                    <p class="sch-list-descr">Служба Божа</p>
+                 </div>
+            </div>
+
+
+            <div class="schedule-part-right-item">
+                <h5 class="schedule-right-title">Свята</h5>
+                <hr class="sch-right-line">
+                <div class="schedule-list-item">
+                   <img src="img/icons/romb.svg" alt=""> 
+                   <p class="sch-list-time">11:00</p>
+                   <p class="sch-list-descr">Утреня</p>
+                </div>
+                <div class="schedule-list-item">
+                    <img src="img/icons/romb.svg" alt=""> 
+                    <p class="sch-list-time">12:00</p>
+                    <p class="sch-list-descr">Служба Божа</p>
+                 </div>
+                 <div class="schedule-list-item">
+                    <img src="img/icons/romb.svg" alt=""> 
+                    <p class="sch-list-time">17:00</p>
+                    <p class="sch-list-descr">Вечірня</p>
+                 </div>
+                 <div class="schedule-list-item">
+                    <img src="img/icons/romb.svg" alt=""> 
+                    <p class="sch-list-time">18:00</p>
+                    <p class="sch-list-descr">Служба Божа</p>
+                 </div>
+                 <p class="sch-ps">(які припадають серед тижня)</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- end of block 4 -->
+  <div class="news-parallax">
+      <p class="news-subtitle">Описовий текст</p>
+      <h4 class="news-title">Новини</h4>
+  </div>
+  <!-- end of parallax block -->
+<!-- tabs -->
+<div class="tab1-container">
+    <div class="tab-ornament-content">
+    <div class="tab1-btns">
+        <div  class="tab1-btns-item active1" onclick="opentab1('aricles')">
+            <img src="img/icons/tab-ornament.svg" alt="" class="tab-btn-before">
+            Статті
+            <img src="img/icons/tab1-line.svg" alt="" class="tab-btn-after">
+        </div>
+        <div  class="tab1-btns-item" onclick="opentab1('gallery')">
+            <img src="img/icons/tab-ornament.svg" alt="" class="tab-btn-gal-before">
+            Фотогалерея
+            <img src="img/icons/tab1-line.svg" alt="" class="tab-btn-gal-after">
+        </div>
+        <div  class="tab1-btns-item" onclick="opentab1('video')">  
+            <img src="img/icons/tab-ornament.svg" alt="" class="tab-btn-vid-before">
+            Відео
+            
+            <img src="img/icons/tab1-line.svg" alt="" class="vid-line">
+        </div>
+      </div>
+      
+      <div id="aricles" class="city">
+        <div class="articles-tab-container">
+            
+            <div class="articles-tab-item">
+                <img src="img/tab1-1.png" alt="" class="tab1-img">
+                <h4 class="tab1-title">В Івано-Франківську відкрили музей єпископа</h4>
+                <p class="tab1-subtitle-item">12 грудня 2020</p>
+            </div>
+            <div class="articles-tab-item">
+                <img src="img/tab1-2.png" alt="" class="tab1-img">
+                <h4 class="tab1-title">В Івано-Франківську відкрили музей єпископа</h4>
+                <p class="tab1-subtitle-item">12 грудня 2020</p>
+            </div>
+            <div class="articles-tab-item">
+                <img src="img/tab1-3.png" alt="" class="tab1-img">
+                <h4 class="tab1-title">В Івано-Франківську відкрили музей єпископа</h4>
+                <p class="tab1-subtitle-item">12 грудня 2020</p>
+            </div>
+            <div class="articles-tab-item">
+                <img src="img/tab1-4.png" alt="" class="tab1-img">
+                <h4 class="tab1-title">В Івано-Франківську відкрили музей єпископа</h4>
+                <p class="tab1-subtitle-item">12 грудня 2020</p>
+            </div>
+            <div class="articles-tab-item">
+                <img src="img/tab1-5.png" alt="" class="tab1-img">
+                <h4 class="tab1-title">В Івано-Франківську відкрили музей єпископа</h4>
+                <p class="tab1-subtitle-item">12 грудня 2020</p>
+            </div>
+        </div>
+       
+      </div>
+      
+      <div id="gallery" class="city" style="display:none">
+        <div class="gallery-tab-container">
+            <div class="gallery-tab-item">
+                <img src="img/tab1-1.png" alt="" class="tab1-img">
+               
+            </div>
+            <div class="gallery-tab-item">
+                <img src="img/tab1-2.png" alt="" class="tab1-img">
+               
+            </div>
+            <div class="gallery-tab-item">
+                <img src="img/tab1-3.png" alt="" class="tab1-img">
+              
+            </div>
+            <div class="gallery-tab-item">
+                <img src="img/tab1-4.png" alt="" class="tab1-img">
+               
+            </div>
+            <div class="gallery-tab-item">
+                <img src="img/tab1-5.png" alt="" class="tab1-img">
+                
+            </div>
+        </div>
+      
+      </div>
+      
+      <div id="video" class="city" style="display:none">
+        <div class="video-tab-container">
+            <div class="video-tab-item">
+                <img src="img/tab1-1.png" alt="" class="tab1-img">
+             
+            
+               
+            </div>
+            <div class="video-tab-item">
+                <img src="img/tab1-2.png" alt="" class="tab1-img">
+             
+               
+            </div>
+            <div class="video-tab-item">
+                <img src="img/tab1-3.png" alt="" class="tab1-img">
+              
+              
+            </div>
+            <div class="video-tab-item">
+                <img src="img/tab1-4.png" alt="" class="tab1-img">
+              
+               
+            </div>
+            <div class="video-tab-item">
+                <img src="img/tab1-5.png" alt="" class="tab1-img">
+               
+                
+            </div>
+        </div>
+        </div>
+      </div>
+      <button class="show-all">Переглянути всі</button>
+  
+  
+</div>
+  <!-- <img src="img/icons/side-ornament.svg" alt="" class="tabs-side-ornament">
+  <hr class="tabs-hr"> -->
+<!-- end of tabs -->
+  <!-- Prays -->
+  <div class="pray-content">
+  <div class="about" id="pray-about">Описовий текст</div>
+  <h4 class="pray-title">Молитви</h4>
+  
+  <img src="img/icons/vertical-line.svg" alt="" class="vertical-line">
+ 
+  <div class="prays-container">
+       <hr class="pray-line">
+       <div id="dropdown-1" class="dropdown dropdown-processed">
+        <div class="dropdown-link">
+            <div class="dropdown-link-right">
+              <p class="option-plus">+</p>
+            <h4 class="option-name">Акафіст до Богородиці Погінської</h4>  
+            </div>
+            
+            <img src="img/icons/side-ornament.svg" alt="">
+        </div>
+        <div class="dropdown-container" >
+         <img src="img/icon-full.png" alt="" class="dropdown-img">
+         <div class="dropdown-pray-container">
+             <div class="dropdown-text">
+                 <p class="dropdown-text-item">  Царице Покутського краю, прославлена небесними силами і возвеличена людськими родами Мати Ісуса Христа і наша Мати.</p>
+                 <p class="dropdown-text-item">  З серцем, повним пошани, припадаю до Тебе, Преблагословенна і Пречиста Діво Маріє, прошу Тебе: вислухай мене нині.</p>
+                 <p class="dropdown-text-item"> Прекрасна квітко душевного раю, знаю, що багатьма думками не раз тяжко зневажав доброту Божу, тому прошу Тебе, відкрий мої очі, засліплені марнотами цього світу, а за провини усі - пробач.</p>
+                 <p class="dropdown-text-item"> Подай Свою ласкаву материнську руку у теперішній потребі і наповни моє серце силою любові, щоб я не захитався у вірі.
+                    Не випускай мене зі Своєї святої опіки і охороняй мене, щоб я ніколи не зійшов з чесної дороги.</p>
+                 <p class="dropdown-text-item">  Матінко Божа, прийми ласкаво в Свою опіку мою родину, яку Тобі поручаю.</p>
+                 <p class="dropdown-text-item">  Покрий нас Своїм омофором, аби ми всі перебували в здоров'ї і спокої та славили Тебе на віки вічні. Амінь.</p>
+
+             </div>
+         </div>
+        </div>
+      </div>
+      
+      <div id="dropdown-2" class="dropdown dropdown-processed">
+        <hr class="pray-line">
+        <div class="dropdown-link">
+            <div class="dropdown-link-right">
+              <p class="option-plus">+</p>
+            <h4 class="option-name">Дев’ятниця до Богородиці Погінської</h4>  
+            </div>
+            
+            <img src="img/icons/side-ornament.svg" alt="">
+        </div>
+        <div class="dropdown-container" style="display: none;">
+            <img src="img/icon-full.png" alt="" class="dropdown-img">
+            <div class="dropdown-pray-container">
+                <div class="dropdown-text">
+                    <p class="dropdown-text-item">  Царице Покутського краю, прославлена небесними силами і возвеличена людськими родами Мати Ісуса Христа і наша Мати.</p>
+                    <p class="dropdown-text-item">  З серцем, повним пошани, припадаю до Тебе, Преблагословенна і Пречиста Діво Маріє, прошу Тебе: вислухай мене нині.</p>
+                    <p class="dropdown-text-item"> Прекрасна квітко душевного раю, знаю, що багатьма думками не раз тяжко зневажав доброту Божу, тому прошу Тебе, відкрий мої очі, засліплені марнотами цього світу, а за провини усі - пробач.</p>
+                    <p class="dropdown-text-item"> Подай Свою ласкаву материнську руку у теперішній потребі і наповни моє серце силою любові, щоб я не захитався у вірі.
+                       Не випускай мене зі Своєї святої опіки і охороняй мене, щоб я ніколи не зійшов з чесної дороги.</p>
+                    <p class="dropdown-text-item">  Матінко Божа, прийми ласкаво в Свою опіку мою родину, яку Тобі поручаю.</p>
+                    <p class="dropdown-text-item">  Покрий нас Своїм омофором, аби ми всі перебували в здоров'ї і спокої та славили Тебе на віки вічні. Амінь.</p>
+   
+                </div>
+            </div>
+            
+        </div>
+      </div>
+      
+      <div id="dropdown-3" class="dropdown dropdown-processed">
+        <hr class="pray-line">
+        <div class="dropdown-link">
+            <div class="dropdown-link-right">
+              <p class="option-plus">+</p>
+            <h4 class="option-name">Молебінь до Матері Божої з Погоні</h4>  
+            </div>
+            
+            <img src="img/icons/side-ornament.svg" alt="">
+        </div>
+        <div class="dropdown-container" style="display: none;">
+            <img src="img/icon-full.png" alt="" class="dropdown-img">
+            <div class="dropdown-pray-container">
+                <div class="dropdown-text">
+                    <p class="dropdown-text-item">  Царице Покутського краю, прославлена небесними силами і возвеличена людськими родами Мати Ісуса Христа і наша Мати.</p>
+                    <p class="dropdown-text-item">  З серцем, повним пошани, припадаю до Тебе, Преблагословенна і Пречиста Діво Маріє, прошу Тебе: вислухай мене нині.</p>
+                    <p class="dropdown-text-item"> Прекрасна квітко душевного раю, знаю, що багатьма думками не раз тяжко зневажав доброту Божу, тому прошу Тебе, відкрий мої очі, засліплені марнотами цього світу, а за провини усі - пробач.</p>
+                    <p class="dropdown-text-item"> Подай Свою ласкаву материнську руку у теперішній потребі і наповни моє серце силою любові, щоб я не захитався у вірі.
+                       Не випускай мене зі Своєї святої опіки і охороняй мене, щоб я ніколи не зійшов з чесної дороги.</p>
+                    <p class="dropdown-text-item">  Матінко Божа, прийми ласкаво в Свою опіку мою родину, яку Тобі поручаю.</p>
+                    <p class="dropdown-text-item">  Покрий нас Своїм омофором, аби ми всі перебували в здоров'ї і спокої та славили Тебе на віки вічні. Амінь.</p>
+   
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div id="dropdown-4" class="dropdown dropdown-processed">
+        <hr class="pray-line">
+        <div class="dropdown-link">
+            <div class="dropdown-link-right">
+              <p class="option-plus">+</p>
+            <h4 class="option-name">Вервиця до Погінської Матері Божої</h4>  
+            </div>
+            
+            <img src="img/icons/side-ornament.svg" alt="">
+        </div>
+        <div class="dropdown-container" style="display: none;">
+            <img src="img/icon-full.png" alt="" class="dropdown-img">
+            <div class="dropdown-pray-container">
+                <div class="dropdown-text">
+                    <p class="dropdown-text-item">  Царице Покутського краю, прославлена небесними силами і возвеличена людськими родами Мати Ісуса Христа і наша Мати.</p>
+                    <p class="dropdown-text-item">  З серцем, повним пошани, припадаю до Тебе, Преблагословенна і Пречиста Діво Маріє, прошу Тебе: вислухай мене нині.</p>
+                    <p class="dropdown-text-item"> Прекрасна квітко душевного раю, знаю, що багатьма думками не раз тяжко зневажав доброту Божу, тому прошу Тебе, відкрий мої очі, засліплені марнотами цього світу, а за провини усі - пробач.</p>
+                    <p class="dropdown-text-item"> Подай Свою ласкаву материнську руку у теперішній потребі і наповни моє серце силою любові, щоб я не захитався у вірі.
+                       Не випускай мене зі Своєї святої опіки і охороняй мене, щоб я ніколи не зійшов з чесної дороги.</p>
+                    <p class="dropdown-text-item">  Матінко Божа, прийми ласкаво в Свою опіку мою родину, яку Тобі поручаю.</p>
+                    <p class="dropdown-text-item">  Покрий нас Своїм омофором, аби ми всі перебували в здоров'ї і спокої та славили Тебе на віки вічні. Амінь.</p>
+   
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div id="dropdown-5" class="dropdown dropdown-processed">
+        <hr class="pray-line">
+        <div class="dropdown-link">
+            <div class="dropdown-link-right">
+              <p class="option-plus">+</p>
+            <h4 class="option-name">Молитва до ікони Погінської Богородиці</h4>  
+            </div>
+            
+            <img src="img/icons/side-ornament.svg" alt="">
+        </div>
+        <div class="dropdown-container" style="display: none;">
+            <img src="img/icon-full.png" alt="" class="dropdown-img">
+            <div class="dropdown-pray-container">
+                <div class="dropdown-text">
+                    <p class="dropdown-text-item">  Царице Покутського краю, прославлена небесними силами і возвеличена людськими родами Мати Ісуса Христа і наша Мати.</p>
+                    <p class="dropdown-text-item">  З серцем, повним пошани, припадаю до Тебе, Преблагословенна і Пречиста Діво Маріє, прошу Тебе: вислухай мене нині.</p>
+                    <p class="dropdown-text-item"> Прекрасна квітко душевного раю, знаю, що багатьма думками не раз тяжко зневажав доброту Божу, тому прошу Тебе, відкрий мої очі, засліплені марнотами цього світу, а за провини усі - пробач.</p>
+                    <p class="dropdown-text-item"> Подай Свою ласкаву материнську руку у теперішній потребі і наповни моє серце силою любові, щоб я не захитався у вірі.
+                       Не випускай мене зі Своєї святої опіки і охороняй мене, щоб я ніколи не зійшов з чесної дороги.</p>
+                    <p class="dropdown-text-item">  Матінко Божа, прийми ласкаво в Свою опіку мою родину, яку Тобі поручаю.</p>
+                    <p class="dropdown-text-item">  Покрий нас Своїм омофором, аби ми всі перебували в здоров'ї і спокої та славили Тебе на віки вічні. Амінь.</p>
+   
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div id="dropdown-6" class="dropdown dropdown-processed">
+          <hr class="pray-line">
+        <div class="dropdown-link">
+            <div class="dropdown-link-right">
+              <p class="option-plus">+</p>
+            <h4 class="option-name">Хресна дорога в Погоні</h4>  
+            </div>
+            
+            <img src="img/icons/side-ornament.svg" alt="">
+        </div>
+        <div class="dropdown-container" style="display: none;">
+            <img src="img/icon-full.png" alt="" class="dropdown-img">
+            <div class="dropdown-pray-container">
+                <div class="dropdown-text">
+                    <p class="dropdown-text-item">  Царице Покутського краю, прославлена небесними силами і возвеличена людськими родами Мати Ісуса Христа і наша Мати.</p>
+                    <p class="dropdown-text-item">  З серцем, повним пошани, припадаю до Тебе, Преблагословенна і Пречиста Діво Маріє, прошу Тебе: вислухай мене нині.</p>
+                    <p class="dropdown-text-item"> Прекрасна квітко душевного раю, знаю, що багатьма думками не раз тяжко зневажав доброту Божу, тому прошу Тебе, відкрий мої очі, засліплені марнотами цього світу, а за провини усі - пробач.</p>
+                    <p class="dropdown-text-item"> Подай Свою ласкаву материнську руку у теперішній потребі і наповни моє серце силою любові, щоб я не захитався у вірі.
+                       Не випускай мене зі Своєї святої опіки і охороняй мене, щоб я ніколи не зійшов з чесної дороги.</p>
+                    <p class="dropdown-text-item">  Матінко Божа, прийми ласкаво в Свою опіку мою родину, яку Тобі поручаю.</p>
+                    <p class="dropdown-text-item">  Покрий нас Своїм омофором, аби ми всі перебували в здоров'ї і спокої та славили Тебе на віки вічні. Амінь.</p>
+   
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </div>
+
+
+  <!-- end prays -->
+
+  <!-- свідчення -->
+  <div class="svidchenya">
+    <div class="about" id="people-stories">Історії прихожан</div>
+      <h4 class="svidchenya-title">Свідчення</h4>
+      <div class="svidchenya-container">
+          <div class="svidchenya-container-item">
+              <h4 class="svidchenya-item-title"><span><img src="img/icons/romb.svg" alt=""></span>Назва історії</h4>
+              <p class="svidchenya-item-text">Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії...</p>
+              
+              <img src="" alt="">
+              <button class="svidchenya-item-button">Читати</button>
+              
+          </div>
+          <div class="svidchenya-container-item">
+            <h4 class="svidchenya-item-title"><span><img src="img/icons/romb.svg" alt=""></span>Назва історії</h4>
+            <p class="svidchenya-item-text">Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії...</p>
+            <button class="svidchenya-item-button">Читати</button>
+          </div>
+          <div class="svidchenya-container-item">
+            <h4 class="svidchenya-item-title"><span><img src="img/icons/romb.svg" alt=""></span>Назва історії</h4>
+            <p class="svidchenya-item-text">Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії...</p>
+            <button class="svidchenya-item-button">Читати</button>
+          </div>
+          <div class="svidchenya-container-item">
+            <h4 class="svidchenya-item-title"><span><img src="img/icons/romb.svg" alt=""></span>Назва історії</h4>
+            <p class="svidchenya-item-text">Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії...</p>
+            <button class="svidchenya-item-button">Читати</button>
+          </div>
+          <div class="svidchenya-container-item">
+            <h4 class="svidchenya-item-title"><span><img src="img/icons/romb.svg" alt=""></span>Назва історії</h4>
+            <p class="svidchenya-item-text">Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії...</p>
+            <button class="svidchenya-item-button">Читати</button>
+          </div>
+          <div class="svidchenya-container-item">
+            <h4 class="svidchenya-item-title"><span><img src="img/icons/romb.svg" alt=""></span>Назва історії</h4>
+            <p class="svidchenya-item-text">Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії. Тут буде розміщуватися 3 рядки тексту з історії...</p>
+            <button class="svidchenya-item-button">Читати</button> 
+          </div>
+      </div>
+  </div>
+  <!-- /свідчення -->
+  
+
+      <!-- footer for all pages -->
+      <footer>
+        <div class="footer">
+            <div class="footer-right">
+              <div class="footer-links">
+                <p class="footer-first-link"><a href="#">Видання</a></p>
+                <p class="footer-first-link"><a href="#">Контакти</a></p>
+            </div>  
+            <div class="footer-info">
+                <p class="footer-phone">+38 096 313 34 54</p>
+                <p class="footer-email">pogonia@gmail.com</p>
+                <div class="footer-social-media">
+                    <a href="https://m.facebook.com/" target="_blank"><img src="img/icons/facebook-white.svg" alt="" class="footer-social-med-item"></a>
+                    <a href="https://www.instagram.com/"  target="_blank"><img src="img/icons/instagram-white.svg" alt="" class="footer-social-med-item"></a> 
+                    <a  href="https://www.youtube.com/"  target="_blank"><img src="img/icons/youtube-white.svg" alt="" class="footer-social-med-item"></a>
+                </div>
+            </div>  
+            </div>
+            
+            <div class="footer-third">
+                <button class="footer-donation"><a href="#">Пожертва</a></button>
+            </div>
+        </div>
+    </footer>
+    <script src="libs/aos/aos.js"></script>
+    <!-- end footer for all pages -->
+    <script src="js/main.js"></script>
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+ 
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+</body>
+</html>

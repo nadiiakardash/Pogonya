@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <title>test</title>
+<style>
+   
+</style>
+</head>
+<body>
+    <div id="dropdown-1" class="dropdown dropdown-processed">
+        <div class="dropdown-link">
+            <p class="option-plus">+</p>
+            <h4 class="option-name">Акафіст до Богородиці Погінської</h4>
+            <img src="img/icons/side-ornament.svg" alt="">
+        </div>
+        <div class="dropdown-container" >
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="dropdown-2" class="dropdown dropdown-processed">
+        <div class="dropdown-link" >Options</div>
+        <div class="dropdown-container" style="display: none;">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="dropdown-3" class="dropdown dropdown-processed">
+        <div class="dropdown-link" >Options</div>
+        <div class="dropdown-container" style="display: none;">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="dropdown-4" class="dropdown dropdown-processed">
+        <div class="dropdown-link" >Options</div>
+        <div class="dropdown-container" style="display: none;">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="dropdown-5" class="dropdown dropdown-processed">
+        <div class="dropdown-link" >Options</div>
+        <div class="dropdown-container" style="display: none;">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="dropdown-6" class="dropdown dropdown-processed">
+        <div class="dropdown-link" >Options</div>
+        <div class="dropdown-container" style="display: none;">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+      </div>
+
+      <script>
+
+function chngimg() {
+    var img = document.getElementById('imgplus').src;
+    if (img.src.indexOf('img/icons/hamburger.svg')!=-1) {
+        document.getElementById('imgplus').src  = 'img/icons/close.svg';
+    }
+     else {
+       document.getElementById('imgplus').src = 'img/icons/hamburger.svg';
+   }
+
+}
+      </script>
+</body>
+</html>

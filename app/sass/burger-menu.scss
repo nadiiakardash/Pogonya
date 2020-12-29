@@ -1,0 +1,165 @@
+#burg-icon{
+    display: none;
+}
+#burg-icon{
+width: 100px;
+font-size:40px;
+cursor:pointer;
+#imgplus{
+    margin-left: 50px;
+    margin-top: 33px;
+}
+}
+
+.overlay1{
+    display: none;
+}
+#burg-close1{
+    color: #000;
+    font-size: 40px;
+    font-weight: 800;
+}
+.burger-online{
+    margin-right: 10px;
+}
+#map-burg-btn{
+    display: block;
+    margin: 0 auto;
+}
+.closebtn{
+    display: none;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+@media (min-width:1420px){
+    #burg-icon{
+        display: none !important;
+    }
+}
+
+@media (max-width:1545px){
+    .main-header-right .main-nav-list-item{
+        padding: 0 8px;
+    }
+}
+
+@media (max-width:1435px){
+   .main-header-right{
+       display: none;
+   } 
+   .main-header-left{
+       margin-bottom: 10px;
+   }
+   #burg-icon{
+    display: block;
+}
+}
+
+@media (max-width:980px){
+    .main-header-left .main-header-left-donation{
+        padding: 18px 43.5px;
+    }
+    .main-header-left .main-header-left-online{
+        padding: 18px 20.5px;
+    }
+ }
+ @media (max-width:540px){
+    .main-header-left .main-header-left-online{
+        display: none;
+    }
+    #small-online{
+        display: block;
+        margin-top: -8px;
+    margin-right: 15px;
+    }
+ }
+
+//  burger menu on homepag{e
+    .home-burger{
+        display: none;
+    }
+   //burger menu
+.overlay-home {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 9%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+ .burger-online-btn{
+font-weight: 600;
+font-size: 16px;
+padding: 14px 32.4px;
+border-radius: 200px;
+line-height: 24px;
+color: #DAB045;
+background: transparent;
+border: none;
+text-align: center;
+border: 1px solid #C19332;
+ } 
+  .overlay-home .closebtn {
+    position: absolute;
+    top: 20px;
+    display: block;
+    transition: 0.3s;
+    right: 45px;
+    z-index: 1000;
+    color: #000;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay-home a {font-size: 20px}
+    .overlay-home .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+//end of burger menu
+
+
+@media (max-width: 1570px){
+ .header-right .home-navigation .home-navigation-item{
+padding: 10px 10px;
+ } 
+
+  #imgplus-home{
+    display: block;
+    margin-left: 40px;
+     margin-top: 21px;
+}
+}
+
+@media (max-width: 1483px){
+    .header-left .donation{
+        padding: 18px 29.5px;
+    }
+    .header-left .header-button-online{
+        padding: 14px 9.4px;
+    }
+}
+@media (max-width: 1349px){
+    .header-right{
+        display: none;
+    }
+    .home-burger{
+        display: block;
+        margin-left: 30px;
+    }
+}

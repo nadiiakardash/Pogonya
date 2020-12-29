@@ -1,0 +1,198 @@
+.map-container {
+  width: 100%;
+  max-width: 1472px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 40px auto; }
+
+.map-container-info {
+  background: #272626;
+  position: absolute;
+  z-index: 100;
+  max-width: 446px;
+  top: 40px; }
+
+.mapcontent-text {
+  padding: 60px 54px 100px 54px; }
+  .mapcontent-text .map-contact {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400; }
+  .mapcontent-text .map-content-line {
+    width: 54px;
+    background: transparent;
+    border: 1px solid #C19332;
+    float: right; }
+  .mapcontent-text .map-content-location {
+    display: flex; }
+
+.map-container-location {
+  margin-left: 258px;
+  position: relative; }
+
+.map-loc-container {
+  margin-top: 48px; }
+
+.open-maps {
+  position: absolute;
+  right: 80px;
+  outline: none;
+  bottom: 40px;
+  border: none;
+  background: transparent;
+  border: 1px solid #C19332;
+  padding: 11px 33px;
+  line-height: 24px;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #C19332; }
+
+.map-photo {
+  position: absolute;
+  right: 60px;
+  background-color: #fff;
+  top: 40px; }
+
+.map-photo-item {
+  padding: 10px; }
+
+.map {
+  width: 100%;
+  max-width: 1173px; }
+
+.map-location {
+  position: absolute;
+  top: 50%;
+  right: 46%; }
+
+.map-location-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 15px;
+  color: #FFFFFF;
+  font-weight: 500; }
+
+.location-icon {
+  padding: 22px; }
+
+.bus-schedule {
+  margin-top: 40px; }
+  .bus-schedule .bus-schedule-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1474px;
+    margin: 0 auto; }
+    .bus-schedule .bus-schedule-container .bus-schedule-left {
+      margin-right: 133px; }
+    .bus-schedule .bus-schedule-container .bus-schedule-left-title {
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 64px;
+      color: #000000;
+      max-width: 333px; }
+    .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child {
+      padding: 40px 104px 39px 36px;
+      border: 1px solid #E0E0E0; }
+    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2) {
+      padding: 40px 168px 86px 36px;
+      border: 1px solid #E0E0E0; }
+    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3) {
+      padding: 40px 147px 86px 36px;
+      border: 1px solid #E0E0E0; }
+    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(4) {
+      padding: 40px 122px 40px 36px;
+      border: 1px solid #E0E0E0; }
+    .bus-schedule .bus-schedule-container .bus-schedule-hr {
+      width: 54px;
+      border: 1px solid #C19332;
+      margin-top: 40px; }
+    .bus-schedule .bus-schedule-container .bus-schedule-left-text {
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 24px;
+      color: #4F4F4F;
+      max-width: 314px;
+      margin-top: 32px; }
+    .bus-schedule .bus-schedule-container .bus-right-item-time {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+      padding-right: 28px; }
+    .bus-schedule .bus-schedule-container .bus-schedule-right {
+      display: flex;
+      flex-wrap: wrap; }
+    .bus-schedule .bus-schedule-container .bus-right-title {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 36px;
+      text-transform: uppercase;
+      color: #000000; }
+    .bus-schedule .bus-schedule-container .bus-right-item {
+      display: flex;
+      margin-top: 22px; }
+    .bus-schedule .bus-schedule-container .bus-right-item-img {
+      padding: 0 15px; }
+
+@media (max-width: 1421px) {
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3) {
+    padding: 40px 144px 86px 36px; }
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2) {
+    padding: 40px 146px 86px 36px; } }
+
+@media (max-width: 1199px) {
+  .map-container-location {
+    margin-left: 96px; } }
+
+@media (max-width: 1498px) {
+  .bus-schedule .bus-schedule-container .bus-schedule-left {
+    margin-right: 109px;
+    margin-left: 20px; } }
+
+@media (max-width: 1330px) {
+  .map {
+    min-height: 530px; } }
+
+@media (max-width: 1042px) {
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child {
+    padding: 40px 110px 39px 36px; }
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2) {
+    padding: 40px 139px 86px 36px; } }
+
+@media (max-width: 1010px) {
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child {
+    padding: 40px 105px 39px 36px; }
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3) {
+    padding: 40px 139px 86px 36px; } }
+
+@media (max-width: 942px) {
+  .map-container-info {
+    display: none; }
+  .map-container-location {
+    width: 100%;
+    margin-left: 1px; }
+  .map {
+    height: auto;
+    object-fit: cover; } }
+
+@media (max-width: 741px) {
+  .bus-schedule .bus-schedule-container {
+    flex-direction: column; }
+  .bus-schedule .bus-schedule-container .bus-schedule-left {
+    margin-bottom: 20px; } }
+
+@media (max-width: 342px) {
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child {
+    padding: 40px 76px 39px 36px; }
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2) {
+    padding: 40px 111px 86px 36px; }
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3) {
+    padding: 40px 111px 86px 36px; }
+  .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(4) {
+    padding: 40px 95px 40px 36px; } }

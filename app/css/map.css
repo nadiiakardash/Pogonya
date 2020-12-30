@@ -81,7 +81,41 @@
 .location-icon {
   padding: 22px; }
 
+.contact-second {
+  display: none;
+  background-color: #272626; }
+  .contact-second .map-contact2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .contact-second .map-content-line2 {
+    width: 54px;
+    margin-left: 30px;
+    border: 1px solid #C19332; }
+  .contact-second .map-loc-container2 {
+    padding: 60px 30px 50px 20px; }
+  .contact-second .map-content-location2 {
+    display: flex;
+    padding: 20px 0; }
+  .contact-second .map-location-text2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+    max-width: 277px;
+    line-height: 24px;
+    color: #FFFFFF; }
+
 .bus-schedule {
+  background-image: url(../img/icons/bg-ornament.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
   margin-top: 40px; }
   .bus-schedule .bus-schedule-container {
     display: flex;
@@ -180,6 +214,10 @@
   .map {
     height: auto;
     object-fit: cover; } }
+
+@media (max-width: 940px) {
+  .contact-second {
+    display: block; } }
 
 @media (max-width: 741px) {
   .bus-schedule .bus-schedule-container {

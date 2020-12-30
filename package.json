@@ -20,6 +20,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-uglifyjs": "^0.6.2",
-    "responsive-tabs": "^1.6.3"
+    "responsive-tabs": "^1.6.3",
+    "swiper": "^6.4.5"
   }
 }

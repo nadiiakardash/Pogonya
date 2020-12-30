@@ -120,6 +120,7 @@ padding: 0 10px;
    }
    .header-button-online span img{
        margin-right: 10px;
+       margin-bottom: -4px;
    }
    .donation{
     text-align: center;
@@ -135,6 +136,25 @@ padding: 0 10px;
 
    }
 }
+.home-location span{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.home-location  {
+z-index: 10;
+position: absolute;
+bottom: 0px;
+display: flex;
+right: 40px;
+}
+.home-location  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+}
+
 //end homapage header
 
 //slider
@@ -193,7 +213,9 @@ padding: 0 10px;
       .gallery-thumbs .swiper-slide-thumb-active {
         opacity: 1;
       }
-    
+      .gallery-top .swiper-slider{
+          height: 100vh;
+      }
 //end of the slider
 
 //styles for history block 1
@@ -218,7 +240,8 @@ color: #466B9B;
     font-weight: 800;
     font-size: 48px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 24px;
+    margin-bottom: 68px;
     line-height: 64px;
     text-align: center;
     color: #000000;
@@ -250,12 +273,12 @@ color: #466B9B;
 .block2-line-top{
     position: absolute;
     top: 0;
-    left: 940px;
+    left: 700px;
 }
 .block2-line-bottom{
     position: absolute;
     bottom: 0;
-    left: 940px;
+    left:700px;
 }
 .history-right{
     max-width: 1248px;
@@ -265,11 +288,11 @@ color: #466B9B;
     .line-center{
         position: absolute;
         top: -10px;
-        right: 830px;
+        right: 750px;
     }
     .line-center-bottom{
         position: absolute;
-        right: 830px;
+        right: 750px;
         bottom: -20px;
     }
     .history-right-container{
@@ -372,6 +395,29 @@ color: #466B9B;
     right: 81px;
     top: 60px;
 }
+.swiper-pagination-bullet{
+    width: 40px;
+    height: 5px;
+    font-size: 14px;
+    background-color: #fff;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0px !important;
+    width: 50px;
+    font-size: 16px;
+    color: white;
+    height: 2px;
+    background: #ffffff;
+}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+    bottom: 433px !important;
+    right: -300px !important;
+    border-radius: 0;
+    transform: rotate(90deg);
+    width: 40%;
+    left: 700px !important;
+}
+
 //end of icons style
 
 // schedule styles
@@ -503,10 +549,21 @@ color: #466B9B;
     left: 34px;  
 }
 .pray-content{
+    position: relative;
+
+}
+.schedule-part{
     background-image: url(../img/icons/bg-ornament.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: left bottom;
 }
+.pray-bg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 //end of parallax block
 //tabs
 .tab1-container{
@@ -516,16 +573,29 @@ color: #466B9B;
     background-position: left bottom ;
     background-size: 75%;
     padding-bottom: 94px;
+    width: 100%;
+    max-width: 1770px;
+    margin: 0 auto;
 }
+// .articles-tab-item:first-child{
+//     margin-left: 20px;
+// }
 .bg-ornament1{
     width: 100%;
     max-width: 600px;
+}
+.tab1-img{
+    width: 100%;
+    max-width: 300px;
 }
 .show-all{
     line-height: 48px;
     background: transparent;
     border: none;
     margin-top: 40px;
+    color: #DBA059;
+    font-weight: bold;
+    font-size: 15px;
     border: 1px solid #DBA059;
     padding: 6px 60px;
     border-radius: 40px;
@@ -625,13 +695,18 @@ color: #466B9B;
 
 .articles-tab-container, .gallery-tab-container, .video-tab-container{
     display: flex;
-    margin-top: 114px;
+    // margin-top: 114px;
+    width: 100%;
+
+    max-width: 1700px;
+    margin: 114px auto 50px auto;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }
 .articles-tab-item, .video-tab-item, .gallery-tab-item{
     padding: 0 10px;
+    width: 300px;
     margin-bottom: 20px;
     border-right: 1px solid rgba(128, 128, 128, 0.466);
 }
@@ -700,6 +775,8 @@ margin-top: 44px;
 .pray-title{
     font-weight: 800;
     font-size: 48px;
+    margin-top: 24px;
+    margin-bottom: 68px;
     line-height: 64px;
     text-align: center;
     color: #333333;
@@ -840,6 +917,7 @@ margin-top: 44px;
     background-image: url(../img/icons/bg-orn-right.svg);
     background-repeat: no-repeat;
     background-position: right bottom 90%;
+    background-size: contain;
  
 }
 //end of svidchenya
@@ -1005,6 +1083,13 @@ footer{
     .history-left .history-img1{
         width: 400px;
     }
+    .icons-right-img1 {
+        right: 378px;
+    }
+    .icons-right-img2{
+        width: 400px;
+    }
+  
     .history-left .history-img2{
         left: 250px;
     }
@@ -1168,6 +1253,12 @@ footer .footer .footer-info{
 @media(max-width: 652px){
     .map-link{
         bottom: 565px;
+    }
+}
+@media(max-width: 900px){
+    .articles-tab-container, .gallery-tab-container, .video-tab-container{
+        justify-content: center;
+        align-items: center;
     }
 }
 @media(max-width: 692px){

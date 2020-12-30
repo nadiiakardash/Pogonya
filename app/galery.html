@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="libs/aos/aos.css">
     <title>Галерея</title>
 </head>
 <body>
     <!-- header -->
-    <header>
+    <header data-aos="fade-right" data-aos-duration="1500">
         <div style="font-size:20px;cursor:pointer" id="burg-icon" onclick="openNav()"><img src="img/icons/hamburger.svg" id="imgplus" alt=""></div>
          <div href="javascript:void(0)" class="closebtn" id="burg-close" onclick="closeNav()">&times;</div>
         <div class="main-header-right">
@@ -47,7 +48,7 @@
             
             <button class="main-header-left-online"><span><img src="img/icons/online-play.svg" alt=""></span>Онлайн трансляція</button>
             <button class="main-header-left-donation">Пожертва</button>
-            <button class="main-header-left-online" id="small-online"><img src="img/icons/online-play.svg" alt=""></button>
+          
            
             
         </div>
@@ -85,10 +86,10 @@
 
     <!-- end of the header -->
     <div class="gallery-container">
-        <p class="gallery-subtitle">November 18, 2020</p>
-        <h4 class="gallery-title">Заголовок фотогалереї</h4>
+        <p class="gallery-subtitle" data-aos="zoom-in" data-aos-duration="1000">November 18, 2020</p>
+        <h4 class="gallery-title" data-aos="zoom-in" data-aos-duration="1200">Заголовок фотогалереї</h4>
         <!-- gallery container with photos -->
-        <div class="wrapper">
+        <div class="wrapper"  data-aos="fade-up" data-aos-duration="1000">
             <!-- 1st row -->
             <a href="img/galery/photo1-full.png" data-fancybox="gallery" data-caption="Caption for single image">
                 <img src="img/galery/photo1.png" alt=""  class="gallery-photo"/>
@@ -132,7 +133,7 @@
         <!-- end of gallery container -->
         <div class="gallery-share">
             <p class="gallery-share-subtitle">Поширити статтю</p>
-            <div class="gallery-socials">
+            <div class="gallery-socials" data-aos="zoom-in" data-aos-duration="500">
                 <a href="https://m.facebook.com/"><img src="img/icons/facebook-blue.svg" alt="facebook" class="galery-social-item"
                     ></a><a href="https://web.telegram.org/"><img src="img/icons/telegram-blue.svg" alt="telegram" class="galery-social-item"
                     ></a><a href="https://account.viber.com/uk/login"><img src="img/icons/viber-blue.svg" alt="viber" style="width:72px; height: 73px;" class="galery-social-item"></a>
@@ -166,6 +167,7 @@
 
 
     <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/aos/aos.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>

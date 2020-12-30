@@ -1,7 +1,4 @@
-// .gallery-photo{
-//     width: 204px !important;
-//     height: 150px;
-// }
+
 .gallery-container{
     max-width: 875px;
     width: 100%;
@@ -55,4 +52,29 @@
     border: 1px solid #ccc;
 }
  
+}
+@media(max-width: 735px){
+    .gallery-container .gallery-socials{
+        margin-left: 35%;
+    }
+}
+@media(max-width: 638px){
+    .gallery-container .gallery-socials{
+        margin-left: 33%;
+    }
+}
+@media(max-width: 540px){
+    .gallery-container .gallery-socials{
+        margin-left: 30%;
+    }
+}
+@media(max-width: 450px){
+    .gallery-container .gallery-socials{
+        margin-left: 26%;
+    }
+}
+@media(max-width: 380px){
+    .gallery-container .gallery-socials{
+        margin-left: 19%;
+    }
 }

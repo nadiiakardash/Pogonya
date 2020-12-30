@@ -119,9 +119,15 @@
     margin-left: 40px;
     margin-top: 21px; } }
 
-@media (max-width: 1483px) {
+@media (max-width: 1495px) {
   .header-left .donation {
-    padding: 18px 29.5px; }
+    padding: 18px 29.5px; } }
+
+@media (max-width: 1920px) {
+  .slider-subtitle {
+    padding-top: 187px; } }
+
+@media (max-width: 1483px) {
   .header-left .header-button-online {
     padding: 14px 9.4px; } }
 
@@ -131,3 +137,11 @@
   .home-burger {
     display: block;
     margin-left: 30px; } }
+
+@media (max-width: 838px) {
+  .home-location {
+    display: none; } }
+
+@media (max-width: 761px) {
+  .slider-subtitle {
+    padding-top: 211px; } }

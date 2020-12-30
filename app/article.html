@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/aos/aos.css">
     <title>Статті</title>
 </head>
 <body>
-    <header>
+    <header data-aos="fade-right" data-aos-duration="1500">
         <div style="font-size:20px;cursor:pointer" id="burg-icon" onclick="openNav()"><img src="img/icons/hamburger.svg" id="imgplus" alt=""></div>
          <div href="javascript:void(0)" class="closebtn" id="burg-close" onclick="closeNav()">&times;</div>
         <div class="main-header-right">
@@ -45,7 +46,7 @@
             
             <button class="main-header-left-online"><span><img src="img/icons/online-play.svg" alt=""></span>Онлайн трансляція</button>
             <button class="main-header-left-donation">Пожертва</button>
-            <button class="main-header-left-online" id="small-online"><img src="img/icons/online-play.svg" alt=""></button>
+         
            
             
         </div>
@@ -78,13 +79,14 @@
         <img src="img/icons/instagram-black.svg" alt="">
         <img src="img/icons/youtube-black.svg" alt="">
    </div>
+   <button class="burger-online-btn" id="article-burger-btn"><span><img class="burger-online" src="img/icons/online-play.svg" alt=""></span>Онлайн трансляція</button>
   </div>
     <hr class="header-line">
 
     <div class="article-content">
-        <p class="article-subtitle">November 18, 2020</p>
-        <h3 class="article-title">Заголовок статті</h3>
-        <p class="article-first-par">At elementum eu facilisis sed odio morbi quis commodo.
+        <p class="article-subtitle"  data-aos="fade-up" data-aos-duration="500">November 18, 2020</p>
+        <h3 class="article-title" data-aos="fade-up" data-aos-duration="500">Заголовок статті</h3>
+        <p class="article-first-par" data-aos="zoom-in" data-aos-duration="600">At elementum eu facilisis sed odio morbi quis commodo.
         Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Quam 
         nulla porttitor massa id neque aliquam vestibulum. Augue eget arcu dictum
         varius duis at consectetur. At erat pellentesque adipiscing commodo elit at
@@ -97,9 +99,9 @@
          aenean vel elit scelerisque mauris pellentesque. Tellus id interdum velit 
          laoreet id donec ultrices tincidunt arcu. Nulla posuere sollicitudin aliquam ultrices.
         </p>
-        <img src="img/article-photo1.png" alt="priests" class="article-photo">
-        <figcaption>Підпис під фото</figcaption>
-        <p class="article-sec-par">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Faucibus purus in massa tempor 
+        <img src="img/article-photo1.png" alt="priests" data-aos="zoom-in" data-aos-duration="600" class="article-photo">
+        <figcaption data-aos="zoom-in" data-aos-duration="600">Підпис під фото</figcaption>
+        <p class="article-sec-par" data-aos="zoom-in" data-aos-duration="600">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Faucibus purus in massa tempor 
         nec feugiat nisl pretium fusce. Velit egestas dui id ornare arcu odio ut.
         In egestas erat imperdiet sed euismod. Nec feugiat nisl pretium fusce
         id velit ut tortor. Integer enim neque volutpat ac tincidunt vitae. 
@@ -110,19 +112,19 @@
         arcu risus quis. At risus viverra adipiscing at in tellus integer 
         feugiat. In ornare quam viverra orci. Mattis vulputate enim nulla 
         aliquet porttitor lacus.</p>
-        <hr class="article-middle-line">
-        <img src="img/icons/quotes.svg" alt="qutoes" class="article-quotes">
+        <hr class="article-middle-line" data-aos="zoom-in" data-aos-duration="600">
+        <img src="img/icons/quotes.svg" alt="qutoes" class="article-quotes" data-aos="zoom-in" data-aos-duration="600">
 
-        <p class="article-third-par">Fermentum posuere urna nec tincidunt praesent 
+        <p class="article-third-par" data-aos="zoom-in" data-aos-duration="600">Fermentum posuere urna nec tincidunt praesent 
             semper feugiat nibh sed. Faucibus purus in massa tempor nec feugiat nisl 
             pretium fusce. Velit egestas dui id ornare arcu odio ut. In egestas erat
             imperdiet sed euismod. Nec feugiat nisl pretium fusce id velit ut tortor.
             Integer enim neque volutpat ac tincidunt vitae. Ipsum faucibus vitae 
             aliquet nec ullamcorper sit amet risus nullam. Ut eu sem integer vitae
             justo ut eu sem integer eu sem integer . </p>
-            <hr class="article-middle-line">
-        <h5 class="article-subtitle2">Et molestie ac feugiat sed lectus</h5>
-       <p class="article-forth-part">At elementum eu facilisis sed odio morbi quis 
+            <hr class="article-middle-line" data-aos="zoom-in" data-aos-duration="600">
+        <h5 class="article-subtitle2" data-aos="zoom-in" data-aos-duration="600">Et molestie ac feugiat sed lectus</h5>
+       <p class="article-forth-part" data-aos="zoom-in" data-aos-duration="600">At elementum eu facilisis sed odio morbi quis 
         commodo. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper.
         Quam nulla porttitor massa id neque aliquam vestibulum. Augue eget arcu 
         dictum varius duis at consectetur. At erat pellentesque adipiscing 
@@ -138,9 +140,9 @@
         consectetur. At erat pellentesque adipiscing commodo elit at 
         imperdiet dui.
             Fames ac turpis egestas integer eget.</p>
-            <hr class="article-middle-line">
-        <p class="share-article">Поширити статтю</p>
-        <div class="article-socials">
+            <hr class="article-middle-line" data-aos="zoom-in" data-aos-duration="600">
+        <p class="share-article" data-aos="zoom-in" data-aos-duration="500">Поширити статтю</p>
+        <div class="article-socials" data-aos="zoom-in" data-aos-duration="500">
             <a href="https://m.facebook.com/"><img src="img/icons/facebook-blue.svg" alt="facebook" class="article-social-item"
             ></a><a href="https://web.telegram.org/"><img src="img/icons/telegram-blue.svg" alt="telegram" class="article-social-item"
             ></a><a href="https://account.viber.com/uk/login"><img src="img/icons/viber-blue.svg" alt="viber" style="width:72px; height: 73px;" class="article-social-item"></a>
@@ -172,6 +174,7 @@
         </div>
     </footer>
     <!-- end footer for all pages -->
+    <script src="libs/aos/aos.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html> 

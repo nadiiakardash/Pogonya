@@ -24,6 +24,7 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
 function opentab1(tabName) {
   var i;
   var x = document.getElementsByClassName("city");
@@ -42,10 +43,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     loopedSlides: 5, 
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
-    scrollbar: {
-      el:'.swiper-scrollbar',
-      draggable: true,
-    }
+   
   });
   var galleryTop = new Swiper('.gallery-top', {
     spaceBetween: 10,
@@ -58,10 +56,12 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     thumbs: {
       swiper: galleryThumbs,
     },
-    // scrollbar: {
-    //   el:'.swiper-scrollbar',
-    //   draggable: true,
-    // }
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      renderBullet: function(index, className){
+        return '<span  class="' + className + '">' + (index + 1) + '</span>'     }
+    },
   });
 
   function openNav() {
@@ -130,12 +130,12 @@ $(document).ready(function(){
     $("div.dropdown-link", $dropdown).click(function(e) {
       e.preventDefault();
       $div = $("div.dropdown-container", $dropdown);
-      $div.toggle();
+      $div.slideDown("slow");
       $("div.dropdown-container").not($div).hide();
       return false;
     });
   }); 
   $('html').click(function(){
-    $("div.dropdown-container").hide();
+    $("div.dropdown-container").slideDown();
   }); 
   });

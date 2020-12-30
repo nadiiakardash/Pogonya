@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="libs/aos/aos.css">
+    <title>Галерея</title>
+</head>
+<body>
+    <!-- header -->
+    <header data-aos="fade-right" data-aos-duration="1500">
+        <div style="font-size:20px;cursor:pointer" id="burg-icon" onclick="openNav()"><img src="img/icons/hamburger.svg" id="imgplus" alt=""></div>
+         <div href="javascript:void(0)" class="closebtn" id="burg-close" onclick="closeNav()">&times;</div>
+        <div class="main-header-right">
+            <div class="main-header-right-first">
+                <div class="main-icons">
+                    <img src="img/icons/facebook-black.svg" alt="" class="main-icons-item">
+                    <img src="img/icons/instagram-black.svg" alt="" class="main-icons-item">
+                    <img src="img/icons/youtube-black.svg" alt="" class="main-icons-item">
+                </div>
+                <div class="main-info">
+                    <p class="main-header-phone">+38 096 313 34 54</p>
+                    <p class="main-header-email">pogonia@gmail.com</p>
+                </div>
+                <div class="main-lang">
+                    <p class="main-lang-item">Ua</p>
+                    <p class="main-lang-item">Eng</p>
+                </div>
+            </div>
+            <div class="main-header-right-second">
+                <ul class="main-nav-list">
+                    <li class="main-nav-list-item"><a href="homepage.html" class="main-nav-list-link">Головна</a></li>
+                    <li class="main-nav-list-item"><a href="#" class="main-nav-list-link">Про Погоню</a></li>
+                    <li class="main-nav-list-item"><a href="#" class="main-nav-list-link">Про Отців </a></li>
+                    <li class="main-nav-list-item"><a href="#" class="main-nav-list-link">Розклад Богослужінь</a></li>
+                    <li class="main-nav-list-item"><a href="#" class="main-nav-list-link">Новини</a></li>
+                    <li class="main-nav-list-item"><a href="#" class="main-nav-list-link">Молитви</a></li>
+                    <li class="main-nav-list-item"><a href="#" class="main-nav-list-link">Свідчення</a></li>
+                    <li class="main-nav-list-item"><a href="#" class="main-nav-list-link">Видання</a></li>
+                    <li class="main-nav-list-item"><a href="#" class="main-nav-list-link">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-header-left">
+            
+            <button class="main-header-left-online"><span><img src="img/icons/online-play.svg" alt=""></span>Онлайн трансляція</button>
+            <button class="main-header-left-donation">Пожертва</button>
+          
+           
+            
+        </div>
+         <!-- burger menu -->
+        
+    </div>
+</header>
+
+<div id="myNav" class="overlay">
+   <ul class="overlay-navigation">
+       <li class="overlay-navigation-item"><a href="#">Головна</a></li>
+       <li class="overlay-navigation-item"><a href="#">Про Погоню</a></li>
+       <li class="overlay-navigation-item"><a href="#">Про Отців</a></li>
+       <li class="overlay-navigation-item"><a href="#">Розклад Богослужінь</a></li>
+       <li class="overlay-navigation-item"><a href="#">Новини</a></li>
+       <li class="overlay-navigation-item"><a href="#">Молитви</a></li>
+       <li class="overlay-navigation-item"><a href="#">Свідчення</a></li>
+       <li class="overlay-navigation-item"><a href="#">Видання</a></li>
+       <li class="overlay-navigation-item"><a href="#">Контакти</a></li>
+   </ul>
+
+   <p class="overlay-tel">+38 096 313 34 54</p>
+   <p class="overlay-email">pogonia@gmail.com</p>
+   <ul class="ovarlay-lang">
+       <li class="overlay-lang-item">UA</li>
+       <li class="overlay-lang-item">Eng</li>
+   </ul>
+   <div class="overlay-icons">
+        <img src="img/icons/facebook-black.svg" alt="">
+        <img src="img/icons/instagram-black.svg" alt="">
+        <img src="img/icons/youtube-black.svg" alt="">
+   </div>
+  </div>
+    <hr class="header-line">
+
+    <!-- end of the header -->
+    <div class="gallery-container">
+        <p class="gallery-subtitle" data-aos="zoom-in" data-aos-duration="1000">November 18, 2020</p>
+        <h4 class="gallery-title" data-aos="zoom-in" data-aos-duration="1200">Заголовок фотогалереї</h4>
+        <!-- gallery container with photos -->
+        <div class="wrapper"  data-aos="fade-up" data-aos-duration="1000">
+            <!-- 1st row -->
+            <a href="img/galery/photo1-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo1.png" alt=""  class="gallery-photo"/>
+            </a>
+            <a href="img/galery/photo2-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo2.png" alt="" />
+            </a>
+            <a href="img/galery/photo3-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo3.png" alt="" />
+            </a>
+            <a href="img/galery/photo4-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo4.png" alt="" />
+            </a>
+            <!-- 2nd row -->
+            <a href="img/galery/photo5-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo5.png" alt="" />
+            </a>
+            <a href="img/galery/photo6-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo6.png" alt="" />
+            </a>
+            <a href="img/galery/photo7-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo7.png" alt="" />
+            </a>
+            <a href="img/galery/photo8-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo8.png" alt="" />
+            </a>
+            <!-- 3d row -->
+            <a href="img/galery/photo9-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo9.png" alt="" />
+            </a>
+            <a href="img/galery/photo10-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo10.png" alt="" />
+            </a>
+            <a href="img/galery/photo11-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo11.png" alt="" />
+            </a>
+            <a href="img/galery/photo12-full.png" data-fancybox="gallery" data-caption="Caption for single image">
+                <img src="img/galery/photo12.png" alt="" />
+            </a>
+        </div>
+        <!-- end of gallery container -->
+        <div class="gallery-share">
+            <p class="gallery-share-subtitle">Поширити статтю</p>
+            <div class="gallery-socials" data-aos="zoom-in" data-aos-duration="500">
+                <a href="https://m.facebook.com/"><img src="img/icons/facebook-blue.svg" alt="facebook" class="galery-social-item"
+                    ></a><a href="https://web.telegram.org/"><img src="img/icons/telegram-blue.svg" alt="telegram" class="galery-social-item"
+                    ></a><a href="https://account.viber.com/uk/login"><img src="img/icons/viber-blue.svg" alt="viber" style="width:72px; height: 73px;" class="galery-social-item"></a>
+            </div>
+        </div>
+       
+    </div>
+
+  <!-- footer for all pages -->
+  <footer>
+    <div class="footer">
+        <div class="footer-links">
+            <p class="footer-first-link"><a href="#">Видання</a></p>
+            <p class="footer-first-link"><a href="#">Контакти</a></p>
+        </div>  
+        <div class="footer-info">
+            <p class="footer-phone">+38 096 313 34 54</p>
+            <p class="footer-email">pogonia@gmail.com</p>
+            <div class="footer-social-media">
+                <a href="https://m.facebook.com/" target="_blank"><img src="img/icons/facebook-white.svg" alt="" class="footer-social-med-item"
+                    ></a><a href="https://www.instagram.com/"  target="_blank"><img src="img/icons/instagram-white.svg" alt="" class="footer-social-med-item"
+                    ></a><a href="https://www.youtube.com/"  target="_blank"><img src="img/icons/youtube-white.svg" alt="" class="footer-social-med-item"></a>
+            </div>
+        </div>
+        <div class="footer-third">
+            <button class="footer-donation"><a href="#">Пожертва</a></button>
+        </div>
+    </div>
+</footer>
+<!-- end footer for all pages -->
+
+
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/aos/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+   
+</body>
+</html>

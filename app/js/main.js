@@ -82,16 +82,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     document.getElementById("burg-close").style.display = "none";
   }
 
-  function chngimg() {
-    var img = document.getElementById('imgplus').src;
-    if (img.src.indexOf('img/icons/hamburger.svg')!=-1) {
-        document.getElementById('imgplus').src  = 'img/icons/close.svg';
-    }
-     else {
-       document.getElementById('imgplus').src = 'img/icons/hamburger.svg';
-   }
 
-}
 
 //tabs navigation 1
 $(function() {

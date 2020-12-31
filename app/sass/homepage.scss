@@ -944,6 +944,18 @@ margin-top: 44px;
  
     transform: translateY(-50%);
 }
+.location{
+    float: right;
+    text-decoration: none;
+    margin-right: 30px;
+    line-height: 24px;
+    color: #fff;
+}
+.location:before{
+    content: url(../img/icons/map-white.svg);
+    padding-right: 20px;
+    margin-top: 10px;
+}
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
     margin: 0px !important;
     width: 3px;
@@ -1527,7 +1539,11 @@ footer .footer .footer-info{
     }
     
 }
-
+@media(max-width: 1068px){
+.schedule-part-left{
+    margin-left: 30px;
+}
+}
 
 @media(max-width: 894px){
     footer .footer .footer-info{

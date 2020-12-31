@@ -794,6 +794,18 @@ body {
   left: 98% !important;
   transform: translateY(-50%); }
 
+.location {
+  float: right;
+  text-decoration: none;
+  margin-right: 30px;
+  line-height: 24px;
+  color: #fff; }
+
+.location:before {
+  content: url(../img/icons/map-white.svg);
+  padding-right: 20px;
+  margin-top: 10px; }
+
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0px !important;
   width: 3px;
@@ -1237,6 +1249,10 @@ footer {
     margin-top: 212px; }
   .history-right .history-subtitle {
     padding-top: 33px; } }
+
+@media (max-width: 1068px) {
+  .schedule-part-left {
+    margin-left: 30px; } }
 
 @media (max-width: 894px) {
   footer .footer .footer-info {

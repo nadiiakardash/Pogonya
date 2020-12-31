@@ -1250,6 +1250,12 @@ footer {
   .history-right .history-subtitle {
     padding-top: 33px; } }
 
+@media (max-width: 604px) {
+  .parallax h3 {
+    left: 36%; }
+  .parallax h4 {
+    left: 29% !important; } }
+
 @media (max-width: 1068px) {
   .schedule-part-left {
     margin-left: 30px; } }
@@ -1263,6 +1269,18 @@ footer {
   footer .footer .footer-info .footer-social-media {
     margin-top: 20px;
     margin-left: 15px; } }
+
+@media (max-width: 1341px) {
+  .parallax h4 {
+    left: 41.5%; } }
+
+@media (max-width: 1055px) {
+  .parallax h4 {
+    left: 39%; } }
+
+@media (max-width: 600px) {
+  .parallax h3 {
+    left: 36% !important; } }
 
 @media (max-width: 821px) {
   .dropdown-container .dropdown-pray-container {
@@ -1354,3 +1372,22 @@ footer {
     padding: 0; }
   footer .footer .footer-info .footer-social-media img {
     padding: 0 9px; } }
+
+@media (max-width: 730px) {
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+    display: none; } }
+
+@media (max-width: 604px) {
+  .parallax h3 {
+    left: 36%; }
+  .parallax h4 {
+    left: 29% !important;
+    display: none; } }
+
+@media (max-width: 395px) {
+  .parallax h4 {
+    left: 24% !important; } }
+
+@media (max-width: 441px) {
+  .header-left .donation {
+    margin-right: 20px; } }

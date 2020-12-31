@@ -928,7 +928,7 @@ margin-top: 44px;
    .option-plus{
        font-size: 40px;
        color: #DBA059;
-       font-weight: 800;
+       font-weight: 600;
    } 
    .option-name{
        line-height: 60px;
@@ -1571,9 +1571,30 @@ footer .footer .footer-info{
         left: 41.5%;
     }
 }
+@media(max-width: 1207px){
+    .tab1-container{
+        background-size: 61%;
+    }
+}
 @media(max-width: 1055px){
     .parallax h4{
         left: 39%;
+    }
+}
+@media(max-width: 800px){
+    .tab1-container{
+       background-size: 40%; 
+    }
+    
+}
+@media(max-width: 411px){
+    .svidchenya .svidchenya-item-button{
+        padding: 0 40px;
+    }
+}
+@media(max-width: 351px){
+    .svidchenya .svidchenya-item-button{
+        padding: 0 20px;
     }
 }
 

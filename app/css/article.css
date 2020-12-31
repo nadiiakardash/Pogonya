@@ -1,6 +1,7 @@
-header {
+.header-second {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-left: 76px; }
 
 .closebtn {
   display: none; }

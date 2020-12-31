@@ -34,6 +34,13 @@
   #burg-icon {
     display: none !important; } }
 
+@media (max-width: 1578px) {
+  .header-left .header-button-online {
+    margin-right: 20px;
+    padding: 16px 11.4px; }
+  .header-left .donation {
+    padding: 18px 65.5px; } }
+
 @media (max-width: 1545px) {
   .main-header-right .main-nav-list-item {
     padding: 0 8px; } }
@@ -67,7 +74,7 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   top: 0;
   left: 0;
   background-color: #fff;
@@ -76,7 +83,7 @@
 
 .overlay-content {
   position: relative;
-  top: 9%;
+  top: 2%;
   width: 100%;
   text-align: center;
   margin-top: 30px; }
@@ -111,14 +118,6 @@
     top: 15px;
     right: 35px; } }
 
-@media (max-width: 1570px) {
-  .header-right .home-navigation .home-navigation-item {
-    padding: 10px 10px; }
-  #imgplus-home {
-    display: block;
-    margin-left: 40px;
-    margin-top: 21px; } }
-
 @media (max-width: 1495px) {
   .header-left .donation {
     padding: 18px 29.5px; } }
@@ -131,12 +130,19 @@
   .header-left .header-button-online {
     padding: 14px 9.4px; } }
 
-@media (max-width: 1349px) {
+@media (max-width: 1418px) {
   .header-right {
     display: none; }
   .home-burger {
     display: block;
-    margin-left: 30px; } }
+    margin-left: 30px;
+    margin-top: 3px; }
+  .header-left .donation {
+    padding: 14px 29.5px; } }
+
+@media (max-width: 812px) {
+  .home-burger {
+    margin-top: 24px; } }
 
 @media (max-width: 838px) {
   .home-location {

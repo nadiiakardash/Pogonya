@@ -231,6 +231,7 @@
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
   transform: scale(1);
+  
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
   transform: scale(1);
@@ -257,6 +258,7 @@
 }
 button.swiper-pagination-bullet {
   border: none;
+  opacity: 0;
   margin: 0;
   padding: 0;
   box-shadow: none;

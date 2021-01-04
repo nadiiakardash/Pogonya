@@ -61,6 +61,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
       renderBullet: function(index, className){
         return '<span  class="' + className + '">' + (index + 1) + '</span>'     }
     },
+    
   });
 
   function openNav() {
@@ -89,7 +90,64 @@ $(function() {
   $(".tab1-btns-item").on("click", function(e) {
       $(this).addClass("active1").siblings().removeClass("active1");    
   });
-})
+});
+
+
+
+
+$('.dropdown-list-item').click(function() {
+  $('.crosspray').toggleClass('rotate');
+});
+$('.dropdown-list-item1').click(function() {
+  $('.pluspray1').toggleClass('rotate');
+});
+$('.dropdown-list-item2').click(function() {
+  $('.pluspray2').toggleClass('rotate');
+});
+$('.dropdown-list-item3').click(function() {
+  $('.pluspray3').toggleClass('rotate');
+});
+$('.dropdown-list-item4').click(function() {
+  $('.pluspray4').toggleClass('rotate');
+});
+$('.dropdown-list-item5').click(function() {
+  $('.pluspray5').toggleClass('rotate');
+});
+$('.dropdown-list-item6').click(function() {
+  $('.pluspray6').toggleClass('rotate');
+});
+
+
+
+//open dropdown content
+$(document).ready(function(){
+  $(".dropdown-list-item").click(function(){
+    $(".dropdown-container").slideToggle("slow");   
+
+  });
+  $(".dropdown-list-item1").click(function(){
+    $(".dropdown-container1").slideToggle("slow");    
+  });
+  $(".dropdown-list-item2").click(function(){
+    $(".dropdown-container2").slideToggle("slow");    
+  });
+  $(".dropdown-list-item3").click(function(){
+    $(".dropdown-container3").slideToggle("slow");    
+  });
+  $(".dropdown-list-item4").click(function(){
+    $(".dropdown-container4").slideToggle("slow");    
+  });
+  $(".dropdown-list-item5").click(function(){
+    $(".dropdown-container5").slideToggle("slow");    
+  });
+  $(".dropdown-list-item6").click(function(){
+    $(".dropdown-container6").slideToggle("slow");    
+  });
+});
+
+
+
+
 //tabs content 1
 function opentab1(tabName) {
   var i;
@@ -99,33 +157,4 @@ function opentab1(tabName) {
   }
   document.getElementById(tabName).style.display = "block";  
 }
-// homepage burger menu
 
-//prays content
-// $(document).ready(function(){
-//   $(".pray-name").click(function(){
-//     $(".pray-content-text").slideToggle();
-//   });
-//   $(".pray-name2").click(function(){
-//     $(".pray2-content").slideToggle("slow");
-//   });
-// });
-
-//dropdown молитви
-$(document).ready(function(){
-
-  $('div.dropdown').each(function() {
-    var $dropdown = $(this);
-  
-    $("div.dropdown-link", $dropdown).click(function(e) {
-      e.preventDefault();
-      $div = $("div.dropdown-container", $dropdown);
-      $div.slideDown("slow");
-      $("div.dropdown-container").not($div).hide();
-      return false;
-    });
-  }); 
-  $('html').click(function(){
-    $("div.dropdown-container").slideDown();
-  }); 
-  });

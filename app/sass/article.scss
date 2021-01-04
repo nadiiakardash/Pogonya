@@ -78,6 +78,7 @@ background-color: #fff; }
             outline: none;
             padding: 18px 49.5px;
             border: none;
+            margin-right: 30px;
             border: 1px solid #DAB045;
             font-weight: 600;
             font-size: 16px;
@@ -103,6 +104,11 @@ background-color: #fff; }
             font-size: 16px;
             line-height: 24px;
             text-align: center;
+        }
+        .main-header-left-donation:hover{
+            background: rgb(218,176,69);
+background: linear-gradient(42deg, rgba(218,176,69,1) 35%, rgba(193,147,50,1) 64%);
+
         }
     }
     .header-line{

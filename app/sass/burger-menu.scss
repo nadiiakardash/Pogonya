@@ -55,7 +55,9 @@ cursor:pointer;
 }
 
 @media (max-width:1435px){
-   
+   .main-header-right{
+       display: none;
+   } 
    .main-header-left{
        margin-bottom: 10px;
    }
@@ -82,12 +84,7 @@ cursor:pointer;
     margin-right: 15px;
     }
  }
- @media (max-width:1651px){
-    .main-header-left .main-header-left-online{
-        padding: 18px 40.5px;
-        margin-right: 15px;
-    }
- }
+
 //  burger menu on homepag{e
     .home-burger{
         display: none;
@@ -213,11 +210,4 @@ border: 1px solid #C19332;
     .slider-subtitle{
         padding-top: 211px;
     }
-}
-@media (max-width: 375px){
-    .slider-subtitle{
-      padding-top: 91px !important;   
-    }
-   
-
 }

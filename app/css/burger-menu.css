@@ -6,7 +6,7 @@
   font-size: 40px;
   cursor: pointer; }
   #burg-icon #imgplus {
-    margin-left: 50px;
+    margin-left: 1px;
     margin-top: 33px; }
 
 .overlay1 {
@@ -27,8 +27,21 @@
 .closebtn {
   display: none;
   font-size: 50px;
-  margin-left: 50px;
+  margin-left: 1px;
   margin-top: 10px; }
+
+@media (max-width: 1686px) {
+  .main-header-left .main-header-left-online {
+    padding: 18px 22.5px;
+    margin-right: 5px; }
+  .main-header-right .main-nav-list-item {
+    padding: 0 10px; }
+  .main-header-left .main-header-left-donation {
+    margin-right: 0px; } }
+
+@media (max-width: 1453px) {
+  .header-second {
+    margin-left: 35px; } }
 
 @media (min-width: 1420px) {
   #burg-icon {
@@ -54,10 +67,12 @@
     display: block; } }
 
 @media (max-width: 980px) {
-  .main-header-left .main-header-left-donation {
-    padding: 18px 43.5px; }
   .main-header-left .main-header-left-online {
     padding: 18px 20.5px; } }
+
+@media (max-width: 607px) {
+  .main-header-left .main-header-left-online {
+    display: none; } }
 
 @media (max-width: 540px) {
   .main-header-left .main-header-left-online {

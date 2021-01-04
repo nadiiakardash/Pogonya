@@ -1168,7 +1168,9 @@ footer {
       color: #FFF;
       font-size: 16px;
       line-height: 24px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      -webkit-text-fill-color: #fff;
+      -webkit-text-decoration-skip: none; }
     footer .footer .footer-info {
       display: flex;
       margin-left: 300px;

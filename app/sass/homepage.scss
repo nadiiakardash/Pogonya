@@ -1393,6 +1393,8 @@ footer{
             font-size: 16px;
             line-height: 24px;
             text-transform: uppercase;
+            -webkit-text-fill-color: #fff;
+            -webkit-text-decoration-skip: none;
         } 
         .footer-info{
             display: flex;

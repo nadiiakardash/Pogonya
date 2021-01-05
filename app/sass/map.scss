@@ -81,7 +81,10 @@ color:#C19332;
   font-size: 16px;
   line-height: 24px;
   margin-top: 15px;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-decoration-skip: none;
   font-weight: 500;
 }
 .location-icon{

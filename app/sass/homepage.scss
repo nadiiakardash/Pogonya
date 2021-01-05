@@ -1388,8 +1388,9 @@ footer{
             padding: 0 20px;
         }
         .footer-first-link a{
-            text-decoration: none;
-            color: #FFF;
+            text-decoration: none !important;
+            color: #FFF !important;
+
             font-size: 16px;
             line-height: 24px;
             text-transform: uppercase;

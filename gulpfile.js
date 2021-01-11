@@ -32,7 +32,7 @@ gulp.task('sass', function () {
     return gulp.src([
         'app/libs/jquery/dist/jquery.min.js'
     ])
-        .pipe(concat('libs.min.js'))
+      
         .pipe(uglify())
         .pipe(gulp.dest('app/js'))
 });

@@ -17,12 +17,12 @@
         <div class="overlay-content">
             <ul class="overlay-navigation">
                 <li class="overlay-navigation-item"><a href="#">Головна</a></li>
-                <li class="overlay-navigation-item"><a href="#">Про Погоню</a></li>
+                <li class="overlay-navigation-item"><a href="#aboutpogonya">Про Погоню</a></li>
                 <li class="overlay-navigation-item"><a href="#">Про Отців</a></li>
-                <li class="overlay-navigation-item"><a href="#">Розклад Богослужінь</a></li>
-                <li class="overlay-navigation-item"><a href="#">Новини</a></li>
-                <li class="overlay-navigation-item"><a href="#">Молитви</a></li>
-                <li class="overlay-navigation-item"><a href="#">Свідчення</a></li>
+                <li class="overlay-navigation-item"><a href="#schedule">Розклад Богослужінь</a></li>
+                <li class="overlay-navigation-item"><a href="#news">Новини</a></li>
+                <li class="overlay-navigation-item"><a href="#prays">Молитви</a></li>
+                <li class="overlay-navigation-item"><a href="#svidchenya">Свідчення</a></li>
                 <li class="overlay-navigation-item"><a href="#">Видання</a></li>
                 <li class="overlay-navigation-item"><a href="#">Контакти</a></li>
             </ul>
@@ -66,12 +66,12 @@
                 <div class="header-right__second">
                     <ul class="home-navigation">
                         <li class="home-navigation-item"><a href="#">Головна</a></li>
-                        <li class="home-navigation-item"><a href="#">Про Погоню</a></li>
+                        <li class="home-navigation-item"><a href="#aboutpogonya">Про Погоню</a></li>
                         <li class="home-navigation-item"><a href="#">Про Отців</a></li>
-                        <li class="home-navigation-item"><a href="#">Розклад Богослужінь</a></li>
-                        <li class="home-navigation-item"><a href="#">Новини</a></li>
-                        <li class="home-navigation-item"><a href="#">Молитви</a></li>
-                        <li class="home-navigation-item"><a href="#">Свідчення</a></li>
+                        <li class="home-navigation-item"><a href="#schedule">Розклад Богослужінь</a></li>
+                        <li class="home-navigation-item"><a href="#news">Новини</a></li>
+                        <li class="home-navigation-item"><a href="#prays">Молитви</a></li>
+                        <li class="home-navigation-item"><a href="#svidchenya">Свідчення</a></li>
                         <li class="home-navigation-item"><a href="#">Видання</a></li>
                         <li class="home-navigation-item"><a href="#">Контакти</a></li>
                     </ul>
@@ -168,7 +168,7 @@
    
  </div> 
  
-    <div class="about"  data-aos-duration="1600" data-aos="fade-up">Про Погоню</div>
+    <div class="about"  data-aos-duration="1600" data-aos="fade-up" id="aboutpogonya">Про Погоню</div>
     <h4 class="our-history"  data-aos-duration="1600" data-aos="fade-up">Наша історія</h4>
     <!-- block 2  -->
 
@@ -223,7 +223,7 @@
       <img src="img/icons/Line-yellow.png" alt="" class="block2-line-bottom">
   </div>
 
-  <div class="schedule-part">
+  <div class="schedule-part"  id="schedule">
       <!-- <img src="img/icons/bg-ornament.svg" alt="" class="bg-ornament1"> -->
     <div class="schedule-part-container">
         <div class="schedule-part-left"  data-aos="fade-right"  data-aos-duration="1000">
@@ -305,7 +305,7 @@
     <!-- end of block 4 -->
  
   <!-- end of parallax block -->
-  <div class="parallax-window" >
+  <div class="parallax-window" id="news">
       <div class="parallax-window-content">
         <p>Описовий текст</p>
         <h4>Новини</h4>
@@ -475,14 +475,14 @@
       <button class="show-all">Переглянути всі</button>
   
     </div>
-    <div class="about" data-aos="fade-up" id="pray-about" data-aos-duration="500">Описовий текст</div>
-    <h4 class="pray-title" data-aos="fade-up" data-aos-duration="500" >Молитви</h4>
+    <div class="about"  data-aos="fade-up" id="pray-about" data-aos-duration="500" >Описовий текст</div>
+    <h4 class="pray-title" data-aos="fade-up" data-aos-duration="500" id="prays">Молитви</h4>
 </div>
   <!-- <img src="img/icons/side-ornament.svg" alt="" class="tabs-side-ornament">
   <hr class="tabs-hr"> -->
 <!-- end of tabs -->
   <!-- Prays -->
-  <div class="pray-content">
+  <div class="pray-content" >
       <!-- <img src="img/icons/bg-ornament.svg" alt="" class=""> -->
  
   
@@ -655,7 +655,7 @@
   <!-- end prays -->
 
   <!-- свідчення -->
-  <div class="svidchenya">
+  <div class="svidchenya" id="svidchenya">
     <div class="about" id="people-stories" data-aos="fade-up" data-aos-duration="1000">Історії прихожан</div>
       <h4 class="svidchenya-title"  data-aos="fade-up" data-aos-duration="1400">Свідчення</h4>
       <img src="img/icons/Line-yellow.png" alt="" class="svidchenya-line">
@@ -724,7 +724,6 @@
     </footer>
     <script src="libs/aos/aos.js"></script>
     <!-- end footer for all pages -->
- <script src="libs/parallax/parallax.js"></script>
     <script src="js/main.js"></script>
     <script src="libs/jquery/dist/jquery.min.js"></script>
 

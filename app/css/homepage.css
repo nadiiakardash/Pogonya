@@ -352,6 +352,12 @@ body {
     padding-bottom: 227px;
     background-position: top left;
     margin-top: 67px; }
+    .history-right .history-right-container p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #E9E9E9;
+      padding-top: 40px;
+      max-width: 630px; }
   .history-right .history-subtitle {
     font-weight: 400;
     padding-top: 190px;
@@ -364,12 +370,6 @@ body {
     line-height: 50px;
     text-transform: uppercase;
     color: #FFFFFF; }
-  .history-right .history-text1, .history-right .history-text2 {
-    font-size: 14px;
-    line-height: 24px;
-    color: #E9E9E9;
-    padding-top: 40px;
-    max-width: 630px; }
 
 .icons-part {
   display: flex;
@@ -410,6 +410,13 @@ body {
   .icons-part-left-container hr {
     width: 54px;
     border: 1px solid #DAB045; }
+  .icons-part-left-container p {
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 24px;
+    max-width: 632px;
+    color: #E9E9E9; }
 
 .icon-left-subtitle {
   font-weight: normal;
@@ -424,14 +431,6 @@ body {
   margin-top: 16px;
   text-transform: uppercase;
   color: #FFFFFF; }
-
-.icons-left-text1, .icons-left-text2 {
-  font-weight: normal;
-  font-size: 14px;
-  margin-top: 20px;
-  line-height: 24px;
-  max-width: 632px;
-  color: #E9E9E9; }
 
 .icons-part-right {
   position: relative; }
@@ -606,6 +605,8 @@ body {
   border: none;
   margin-top: 70px;
   color: #DBA059;
+  text-decoration: none;
+  outline: none;
   font-weight: bold;
   font-size: 15px;
   border: 1px solid #DBA059;
@@ -743,6 +744,9 @@ body {
 .articles-tab-item:first-child, .video-tab-item:first-child, .gallery-tab-item:first-child {
   border-left: 1px solid #D7D6D6; }
 
+.tab-title-link {
+  text-decoration: none; }
+
 .tab1-title {
   font-weight: bold;
   font-size: 16px;
@@ -815,6 +819,15 @@ body {
   color: #FFFFFF;
   padding-top: 430px; }
 
+.parallax-window-content a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #FFFFFF; }
+
 .parallax-window-content h4 {
   text-align: center;
   font-weight: bold;
@@ -874,7 +887,7 @@ body {
 .dropdown-link img {
   transform: rotate(180deg); }
 
-.dropdown-text-item {
+.dropdown-content-text p {
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -980,10 +993,7 @@ span.swiper-pagination-bullet:after {
   padding: 54px 54px 54px 193px;
   margin-left: 150px; }
 
-.dropdown-text-item:first-child {
-  padding-top: 0px; }
-
-.dropdown-text-item {
+.dropdown-content-text p {
   opacity: 1;
   padding-top: 30px; }
 
@@ -1005,7 +1015,7 @@ span.swiper-pagination-bullet:after {
     padding-left: 10px; }
   .dropdown-content {
     padding: 54px 54px 54px 10px; }
-  .dropdown-text-item {
+  .dropdown-content-text p {
     font-size: 17px; } }
 
 .dropdown-img {
@@ -1033,7 +1043,7 @@ span.swiper-pagination-bullet:after {
 
 .dropdown-text {
   padding: 54px 54px 54px 193px; }
-  .dropdown-text .dropdown-text-item {
+  .dropdown-text .dropdown-content-text p {
     padding-top: 30px; }
 
 @media (max-width: 843px) {
@@ -1096,6 +1106,7 @@ span.swiper-pagination-bullet:after {
     align-items: center; }
   .svidchenya .svidchenya-container-item {
     width: 420px;
+    position: relative;
     background-image: url(../img/icons/line-side-small.svg);
     margin: 20px 60px;
     background-repeat: no-repeat;
@@ -1111,6 +1122,7 @@ span.swiper-pagination-bullet:after {
   .svidchenya .svidchenya-item-button {
     font-weight: bold;
     font-size: 15px;
+    text-decoration: none;
     line-height: 48px;
     font-family: "Open Sans";
     outline: none;
@@ -1351,7 +1363,7 @@ footer {
     margin-left: 25px; } }
 
 @media (max-width: 1354px) {
-  .icons-left-text1, .icons-left-text2 {
+  .icons-part-left-container p {
     max-width: 470px; }
   footer .footer .footer-info {
     margin-left: 50px; } }
@@ -1389,7 +1401,7 @@ footer {
 @media (max-width: 1094px) {
   .icons-part-left-container {
     padding-left: 14px; }
-  .icons-left-text1, .icons-left-text2 {
+  .icons-part-left-container p {
     max-width: 390px; } }
 
 @media (max-width: 936px) {
@@ -1462,7 +1474,7 @@ footer {
     display: none; }
   .icons-part-left-container {
     margin-right: 100px; }
-  .icons-left-text1, .icons-left-text2 {
+  .icons-part-left-container p {
     max-width: 607px !important; }
   .history-right .history-right-container {
     margin-left: 30px; } }

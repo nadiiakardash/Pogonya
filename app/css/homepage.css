@@ -6,6 +6,10 @@
   font-family: "Open Sans Bold";
   src: url("../fonts/Open-Sans/OpenSans-ExtraBold.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "OSB";
+  src: url("../fonts/Open-Sans/OpenSans-Bold.ttf") format("truetype"); }
+
 * {
   margin: 0;
   padding: 0;
@@ -99,21 +103,36 @@ body {
   .header-right-info {
     display: flex;
     margin-left: 20px; }
-    .header-right-info h4 {
+    .header-right-info h4,
+    .header-right-info .header-phone, .header-right-info .header-email {
       padding: 0 15px; }
+      .header-right-info h4:hover,
+      .header-right-info .header-phone:hover, .header-right-info .header-email:hover {
+        color: #DAB045; }
   .header-right-lang {
     list-style: none;
     cursor: pointer; }
     .header-right-lang .header-right-lang-item {
       display: inline-block;
       padding: 0 10px; }
+      .header-right-lang .header-right-lang-item a {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none; }
+      .header-right-lang .header-right-lang-item.current_page_item a {
+        color: #DAB045; }
   .header-right .header-phone, .header-right .header-email, .header-right .header-right-lang-item {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    text-decoration: none; }
   .header-right .header-right-lang-item:hover {
     color: #DAB045; }
+    .header-right .header-right-lang-item:hover a {
+      color: #DAB045; }
   .header-right .home-navigation {
     list-style: none;
     display: flex; }
@@ -146,7 +165,9 @@ body {
     background: transparent;
     border: none;
     text-align: center;
-    border: 1px solid #C19332; }
+    border: 1px solid #C19332;
+    display: inline-block;
+    text-decoration: none; }
   .header-left .header-button-online span {
     margin-top: 10px; }
   .header-left .header-button-online span img {
@@ -163,7 +184,9 @@ body {
     margin-right: 75px;
     font-size: 16px;
     line-height: 24px;
-    text-align: center; }
+    text-align: center;
+    display: inline-block;
+    text-decoration: none; }
     .header-left .donation:hover {
       background: #dab045;
       background: linear-gradient(42deg, #dab045 35%, #c19332 64%); }
@@ -243,6 +266,16 @@ body {
 .slide-hr {
   margin-top: 124px; }
 
+.gallery-top .swiper-slide::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.205); }
+
 .about {
   font-weight: 600;
   font-size: 16px;
@@ -251,7 +284,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 150px;
   display: block;
   margin: 145px auto 8px auto;
   text-align: center;
@@ -394,6 +426,7 @@ body {
   position: relative; }
 
 .slider-hr {
+  position: relative;
   display: block;
   margin: 125px auto 0 auto; }
 
@@ -712,7 +745,8 @@ body {
   border: none; }
 
 .tab1-btns-item {
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
 
 .tab1-top {
   position: absolute;
@@ -791,7 +825,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 190px;
   display: block;
   margin: 193px auto 0 auto;
   text-align: center;
@@ -865,17 +898,21 @@ body {
 
 .dropdown-list-item-left {
   display: flex; }
+  .dropdown-list-item-left .pray-name {
+    padding-left: 20px;
+    cursor: pointer; }
 
 .prays-container {
   width: 100%;
   max-width: 1174px;
   margin: 0 auto; }
   .prays-container .pray-line {
-    opacity: 0.3;
+    opacity: 0.6;
     border: 1px solid #B0C9EC; }
 
 .crosspray, .pluspray1, .pluspray2, .pluspray3, .pluspray4, .pluspray5, .pluspray6 {
-  padding: 0px 20px 0 0; }
+  padding: 0px 0px 0 0;
+  transition: 0.4s; }
 
 .pray-ornament {
   transform: rotate(180deg); }
@@ -913,6 +950,7 @@ body {
   transform: translateY(-50%); }
 
 .location {
+  position: relative;
   float: right;
   text-decoration: none;
   margin-right: 30px;
@@ -1082,7 +1120,6 @@ span.swiper-pagination-bullet:after {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 201px;
     display: block;
     margin: 169px auto 0 auto;
     text-align: center;
@@ -1113,7 +1150,7 @@ span.swiper-pagination-bullet:after {
     background-position: left bottom; }
   .svidchenya .svidchenya-item-title span {
     padding: 5px 15px; }
-  .svidchenya .svidchenya-item-text {
+  .svidchenya .svidchenya-item-text, .svidchenya p {
     font-weight: normal;
     font-size: 15px;
     line-height: 24px;
@@ -1172,7 +1209,8 @@ footer {
       flex-wrap: no-wrap; }
     footer .footer .footer-links {
       display: flex;
-      margin-top: 18px; }
+      margin-top: 18px;
+      list-style: none; }
     footer .footer .footer-first-link {
       padding: 0 20px; }
     footer .footer .footer-first-link a {
@@ -1192,7 +1230,8 @@ footer {
         font-size: 16px;
         padding: 0 25px;
         line-height: 24px;
-        color: #FFFFFF; }
+        color: #FFFFFF;
+        text-decoration: none; }
       footer .footer .footer-info .footer-social-media {
         display: flex;
         flex-wrap: nowrap; }
@@ -1204,18 +1243,19 @@ footer {
       background: linear-gradient(97.64deg, #C19332 7.65%, #DAB045 86.12%);
       border-radius: 40px;
       border: none;
-      padding: 18px 91px; }
+      padding: 18px 91px;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      display: inline-block;
+      font-family: 'OSB'; }
     footer .footer .footer-donation:hover {
       padding: 17px 91px;
       background: #dab045;
       background: linear-gradient(42deg, #dab045 35%, #c19332 64%); }
-    footer .footer .footer-donation a {
-      text-decoration: none;
-      color: #fff;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 24px;
-      text-align: center; }
 
 @media (max-width: 1625px) {
   .icons-right-img1 {
@@ -1250,6 +1290,11 @@ footer {
   .gallery-thumbs {
     margin-left: 20px !important;
     width: 80%; } }
+
+@media (max-width: 991px) {
+  .slider-title {
+    font-size: 44px;
+    line-height: 55px; } }
 
 @media (max-width: 657px) {
   .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {

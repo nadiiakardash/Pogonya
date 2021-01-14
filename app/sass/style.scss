@@ -3,3 +3,52 @@
 @import "gallery.scss";
 @import "map.scss";
 @import "burger-menu.scss";
+
+
+.error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: column;
+    min-height: calc(100vh - 262px);
+
+    &__title {
+        margin-bottom: 20px;
+        text-align: center;
+        span {
+            font-size: 35px;
+            color: #dab047;
+            font-family: 'OSB';
+        }
+    }
+}
+
+.btn_yellow {
+    outline: none;
+    background: linear-gradient(97.64deg, #C19332 7.65%, #DAB045 86.12%);
+    border-radius: 40px;
+    border: none;
+    padding: 18px 91px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'OSB';
+}
+
+.page {
+    &-title{
+        font-weight: bold;
+        font-size: 32px;
+        padding-top: 25px;
+        padding: 25px 15px 0 15px;
+        line-height: 48px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 50px;
+    }
+}

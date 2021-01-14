@@ -147,26 +147,31 @@ color:#C19332;
         color: #000000; 
         max-width: 333px;
       } 
-      .bus-schedule-right-items:first-child{
-        padding: 40px 104px 39px 36px;
+      .bus-schedule-right-items {
+        padding: 40px 36px;
         border: 1px solid #E0E0E0;
+        width: 33%;
       }
-      .bus-schedule-right-items:nth-child(2){
-        padding: 40px 168px 86px 36px;
-        border: 1px solid #E0E0E0;
-      }
-      .bus-schedule-right-items:nth-child(3){
-        padding: 40px 147px 86px 36px;
-        border: 1px solid #E0E0E0;
-      }
-      .bus-schedule-right-items:nth-child(4){
-        padding: 40px 122px 40px 36px;
-        border: 1px solid #E0E0E0;
-      }
+      // .bus-schedule-right-items:first-child{
+      //   padding: 40px 104px 39px 36px;
+      //   border: 1px solid #E0E0E0;
+      // }
+      // .bus-schedule-right-items:nth-child(2){
+      //   padding: 40px 168px 86px 36px;
+      //   border: 1px solid #E0E0E0;
+      // }
+      // .bus-schedule-right-items:nth-child(3){
+      //   padding: 40px 147px 86px 36px;
+      //   border: 1px solid #E0E0E0;
+      // }
+      // .bus-schedule-right-items:nth-child(4){
+      //   padding: 40px 122px 40px 36px;
+      //   border: 1px solid #E0E0E0;
+      // }
       .bus-schedule-hr{
         width: 54px;
         border: 1px solid #C19332;
-        margin-top: 40px;    
+        margin-top: 20px;  
       }
       .bus-schedule-left-text{
         font-weight: normal;
@@ -200,17 +205,17 @@ color:#C19332;
           margin-top: 22px;
       }
       .bus-right-item-img{
-          padding: 0 15px;
+          padding: 0 15px 0 0;
       }
     }
   }
   @media(max-width: 1421px){
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3){
-      padding: 40px 144px 86px 36px;
-    }
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2){
-      padding: 40px 146px 86px 36px;
-    }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3){
+    //   padding: 40px 144px 86px 36px;
+    // }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2){
+    //   padding: 40px 146px 86px 36px;
+    // }
   }
   @media(max-width: 1199px){
     .map-container-location{
@@ -231,20 +236,26 @@ color:#C19332;
    
   }
   @media(max-width: 1042px){
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child{
-      padding: 40px 110px 39px 36px;
+    .bus-schedule .bus-schedule-container .bus-schedule-right-items{
+      width: 50%;
     }
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2){
-      padding: 40px 139px 86px 36px;
+    .bus-schedule .bus-schedule-container .bus-schedule-left {
+      margin-right: 50px;
     }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child{
+    //   padding: 40px 110px 39px 36px;
+    // }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2){
+    //   padding: 40px 139px 86px 36px;
+    // }
   }
   @media(max-width: 1010px){
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child{
-      padding: 40px 105px 39px 36px;
-    }
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3){
-      padding: 40px 139px 86px 36px;
-    }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child{
+    //   padding: 40px 105px 39px 36px;
+    // }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3){
+    //   padding: 40px 139px 86px 36px;
+    // }
   }
   @media(max-width: 942px){
     .map-container-info{
@@ -265,6 +276,7 @@ color:#C19332;
     }
   }
   @media(max-width: 741px){
+    
     .bus-schedule .bus-schedule-container{
       flex-direction: column;
     }
@@ -273,16 +285,22 @@ color:#C19332;
     }
   }
   @media(max-width: 342px){
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child{
-      padding: 40px 76px 39px 36px;
-    }
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2){
-      padding: 40px 111px 86px 36px;
-    }
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3){
-      padding: 40px 111px 86px 36px;
-    }
-    .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(4){
-      padding: 40px 95px 40px 36px;
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:first-child{
+    //   padding: 40px 76px 39px 36px;
+    // }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(2){
+    //   padding: 40px 111px 86px 36px;
+    // }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(3){
+    //   padding: 40px 111px 86px 36px;
+    // }
+    // .bus-schedule .bus-schedule-container .bus-schedule-right-items:nth-child(4){
+    //   padding: 40px 95px 40px 36px;
+    // }
+    
+  }
+  @media(max-width: 500px){
+    .bus-schedule .bus-schedule-container .bus-schedule-right-items{
+      width: 100%;
     }
   }

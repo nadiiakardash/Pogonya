@@ -8,6 +8,12 @@
     src: url("../fonts/Open-Sans/OpenSans-ExtraBold.ttf") format("truetype")
          
   }
+  @font-face {
+    font-family: "OSB";
+    src: url("../fonts/Open-Sans/OpenSans-Bold.ttf") format("truetype")
+         
+  }
+  
 *{
     margin: 0;
     padding: 0; 
@@ -108,27 +114,49 @@ padding: 0 10px;
     &-info{
         display: flex;
         margin-left: 20px;
-            h4{
+            h4,
+            .header-phone, .header-email{
                 padding: 0 15px;
+                &:hover {
+                    color:  #DAB045;
+                }
             }
     }
    &-lang{
        list-style: none;
        cursor: pointer;
        .header-right-lang-item{
-        display: inline-block;
-        // float: left;
-        padding:0 10px;
-    }
+            display: inline-block;
+            // float: left;
+            padding:0 10px;
+            a {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #FFFFFF;
+                text-decoration: none;
+                
+            }
+            &.current_page_item {
+                a {
+                    color: #DAB045;
+                }
+            }
+        }
    } 
-        .header-phone, .header-email, .header-right-lang-item{
+    .header-phone, .header-email, .header-right-lang-item{
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
         color: #FFFFFF;  
+        text-decoration: none;
     }
     .header-right-lang-item:hover{
+        a {
+            color: #DAB045;
+        }
         color: #DAB045;
+
     }
    .home-navigation{
        list-style: none;
@@ -171,6 +199,9 @@ padding: 0 10px;
     border: none;
     text-align: center;
     border: 1px solid #C19332;
+    display: inline-block;
+    text-decoration: none;
+
    } 
    .header-button-online span{
        margin-top: 10px;
@@ -191,6 +222,8 @@ padding: 0 10px;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    display: inline-block;
+    text-decoration: none;
  &:hover{
     
     background: rgb(218,176,69);
@@ -280,9 +313,20 @@ line-height: 24px;
       }
       .gallery-top .swiper-slider{
           height: 100vh;
+          
       }
       .slide-hr{
     margin-top: 124px;
+    }
+    .gallery-top .swiper-slide::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.205);
     }
 //end of the slider
 
@@ -295,7 +339,7 @@ line-height: 70px;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
-width: 150px;
+// width: 150px;
 display: block;
 margin: 145px auto 8px auto;
 text-align: center;
@@ -459,6 +503,7 @@ margin-top: -40px;
     position: relative;
 }
 .slider-hr{
+    position: relative;
     display: block;
     margin: 125px auto 0 auto;
 }
@@ -859,7 +904,7 @@ margin-top: -40px;
 }
 .tab1-btns-item{
     position: relative;
-    
+    cursor: pointer;
 }
 .tab1-top{
    position: absolute;
@@ -956,7 +1001,7 @@ margin-top: 44px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 190px;
+    // width: 190px;
     display: block;
     margin: 193px auto 0 auto;
     text-align: center;
@@ -1031,7 +1076,10 @@ border-top: 1px solid #b0c9ec70;
 }
 .dropdown-list-item-left{
     display: flex;
-
+    .pray-name {
+        padding-left: 20px;
+        cursor: pointer;
+    }
 }
 .prays-container{
     width: 100%;
@@ -1039,12 +1087,13 @@ border-top: 1px solid #b0c9ec70;
 
     margin: 0 auto;
     .pray-line{
-        opacity: 0.3;
+        opacity: 0.6;
         border: 1px solid #B0C9EC;   
     }
 }
 .crosspray, .pluspray1, .pluspray2, .pluspray3, .pluspray4, .pluspray5, .pluspray6{
-  padding: 0px 20px 0 0;
+  padding: 0px 0px 0 0;
+  transition: 0.4s;
 }
 .pray-ornament{
     transform: rotate(180deg);
@@ -1093,6 +1142,7 @@ border-top: 1px solid #b0c9ec70;
     transform: translateY(-50%);
 }
 .location{
+    position: relative;
     float: right;
     text-decoration: none;
     margin-right: 30px;
@@ -1303,7 +1353,7 @@ span.swiper-pagination-bullet:after{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 201px;
+    // width: 201px;
     display: block;
     margin: 169px auto 0 auto;
     text-align: center;
@@ -1339,7 +1389,7 @@ span.swiper-pagination-bullet:after{
     .svidchenya-item-title span{
         padding: 5px 15px;
     }
-    .svidchenya-item-text{
+    .svidchenya-item-text, p{
         font-weight: normal;
         font-size: 15px;
         line-height: 24px;
@@ -1407,6 +1457,7 @@ footer{
         .footer-links{
             display: flex; 
             margin-top: 18px;
+            list-style: none;
         }
         .footer-first-link{
             padding: 0 20px;
@@ -1431,6 +1482,7 @@ footer{
                 padding: 0 25px;
                 line-height: 24px;
                 color: #FFFFFF; 
+                text-decoration: none;
             }
             .footer-social-media{
                 display: flex;
@@ -1448,23 +1500,23 @@ footer{
             border: none;
             padding: 18px 91px;
             // margin-top: -10px;
-        }
-        .footer-donation:hover{
-            padding: 17px 91px;
-            background: rgb(218,176,69);
-background: linear-gradient(42deg, rgba(218,176,69,1) 35%, rgba(193,147,50,1) 64%);
-
-
-        }
-        .footer-donation a{
+            color: #ffffff;
             text-decoration: none;
-            color: #fff;
             font-weight: bold;
             font-size: 16px;
             line-height: 24px;
             text-align: center;
-           
+            display: inline-block;
+            font-family: 'OSB';
         }
+        .footer-donation:hover{
+            padding: 17px 91px;
+            background: rgb(218,176,69);
+            background: linear-gradient(42deg, rgba(218,176,69,1) 35%, rgba(193,147,50,1) 64%);
+
+
+        }
+       
     }
 }
 //end of footer(for all pages)
@@ -1515,6 +1567,13 @@ background: linear-gradient(42deg, rgba(218,176,69,1) 35%, rgba(193,147,50,1) 64
      }
      
 }
+@media(max-width: 991px){
+    .slider-title{
+        font-size: 44px;
+        line-height: 55px;
+    }
+}
+
 @media(max-width: 657px){
     .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
         left: 137px !important;

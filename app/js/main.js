@@ -46,7 +46,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
    
   });
   var galleryTop = new Swiper('.gallery-top', {
-    spaceBetween: 10,
+   
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
@@ -88,6 +88,11 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 //tabs navigation 1
 $(function() {
   $(".tab1-btns-item").on("click", function(e) {
+      $(this).addClass("active1").siblings().removeClass("active1");    
+  });
+});
+$(function() {
+  $(".tab1-btns-item").on("mouseover", function(e) {
       $(this).addClass("active1").siblings().removeClass("active1");    
   });
 });

@@ -1118,6 +1118,14 @@ span.swiper-pagination-bullet:after {
   .dropdown-text .dropdown-content-text p {
     padding-top: 30px; }
 
+@media (max-width: 1524px) and (min-width: 1520px) {
+  .header-right .home-navigation .home-navigation-item {
+    padding: 10px 8px !important; } }
+
+@media (max-width: 1427px) and (min-width: 1420px) {
+  .header-right .home-navigation .home-navigation-item {
+    padding: 10px 6px !important; } }
+
 @media (max-width: 843px) {
   .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
     display: flex;

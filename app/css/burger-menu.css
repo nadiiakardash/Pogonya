@@ -57,6 +57,14 @@
   .main-header-right .main-nav-list-item {
     padding: 0 8px; } }
 
+@media (max-width: 1550px) {
+  .header-right {
+    margin-left: 30px !important; }
+  .slider-subtitle {
+    padding-left: 30px !important; }
+  .slider-title {
+    padding-left: 30px !important; } }
+
 @media (max-width: 1521px) {
   .header-right {
     margin-left: 30px; }
@@ -154,9 +162,17 @@
   .slider-subtitle {
     padding-top: 187px; } }
 
+@media (max-width: 1444px) and (min-width: 1440px) {
+  .header-right .home-navigation .home-navigation-item {
+    padding: 10px 6px !important; } }
+
 @media (max-width: 1478px) {
   .header-right .home-navigation .home-navigation-item {
-    padding: 10px 7px; } }
+    padding: 10px 6px; } }
+
+@media (max-width: 1428px) and (min-width: 1420px) {
+  .header-right .home-navigation .home-navigation-item {
+    padding: 10px 6px !important; } }
 
 @media (max-width: 1442px) {
   .header-right {

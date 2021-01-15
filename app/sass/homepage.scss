@@ -328,7 +328,7 @@ fill: #fff;
         width: 600px;
         margin-top: -100px;
         float: left;
-        margin-left: 60px !important;
+        margin-left: 76px !important;
         box-sizing: border-box;
         padding: 10px 0;
       }
@@ -1035,6 +1035,9 @@ margin-top: 44px;
     font-size: 15px; 
     color: #DBA059;
 }
+.footer-third{
+    margin-right: 5px;
+}
 
 //end of tabs
 //pray
@@ -1048,7 +1051,7 @@ margin-top: 44px;
     background-position: center;
     // width: 190px;
     display: block;
-    margin: 0px auto 0 auto;
+    margin: 148px auto 0 auto;
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -1182,7 +1185,7 @@ border-top: 1px solid #b0c9ec70;
     right: 0;
     left: initial !important;
     top: 42%;
-    left: 98% !important;
+    left: 96% !important;
     transform: translateY(-50%);
 }
 .location{
@@ -1287,6 +1290,45 @@ span.swiper-pagination-bullet:after{
     opacity: 1;
     padding-top: 30px;
 }
+@media(max-width: 1600px){
+    footer .footer .footer-links{
+        margin-left: 75px;
+    }
+    .header-right .home-navigation .home-navigation-item{
+        padding: 10px 6px;
+    }  
+    .articles-tab-container, .gallery-tab-container, .video-tab-container{
+        width: 90%;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .articles-tab-item, .video-tab-item, .gallery-tab-item{
+        width: 245px;
+    }
+    .header-left .donation{
+        padding: 13px 54px;
+    }
+    .header-left .header-button-online{
+        margin-right: 20px;
+    }
+    .footer-third{
+        margin-right: 75px !important;
+    }
+   .show-all{
+       margin-right: 75px;
+   }
+   .tab1-container{
+    background-position: left 13% bottom;
+    background-size: 68%;
+   }
+   .schedule-part-left{
+       margin-left: 12.5px;
+   }
+   .schedule-part-right{
+    margin-right: 12.5px;
+   }
+  
+}
 @media(min-width: 1520px) and (max-width: 1910px){
     .slider-subtitle{
         padding-top: 17px;
@@ -1315,14 +1357,12 @@ span.swiper-pagination-bullet:after{
         font-size: 15px;
         padding-left: 30px;
     }
-    .about{
-        margin: 80px auto 8px auto   
-    }
+   
     .schedule-part .schedule-part-container{
         margin: 20px auto;
     }
-    .svidchenya .svidchenya-container{
-        margin-bottom: 40px;
+    #pray-about{
+        margin:28px auto 0 auto; ;
     }
 }
      
@@ -1532,6 +1572,9 @@ footer{
         .footer-first-link{
             padding: 0 20px;
         }
+        .footer-first-link:first-child{
+            padding-left: 5px;
+        }
         .footer-first-link a:hover{
             color: #C1922E !important;
             -webkit-text-fill-color: #C1922E;
@@ -1695,14 +1738,7 @@ footer{
     margin-top: -124px !important;
 }
 }
-@media(max-width: 1762px){
-    .header-left .donation{
-        margin-right: 10px;
-    }
-    .header-right .home-navigation .home-navigation-item{
-        padding: 10px 9px   
-    }
-}
+
 
 @media(max-width: 1697px){
     .icons-part-left-container{
@@ -2022,11 +2058,14 @@ border-left: 1px solid #D7D6D6;
         margin-left: 1px;
     }
 }
+@media(max-width: 1685px){
 
+ .articles-tab-item, .video-tab-item, .gallery-tab-item {
+    width: 288px;
+}
+}
 @media(max-width: 1679px){
-    .articles-tab-item, .video-tab-item, .gallery-tab-item{
-        width: 300px;
-    }
+   
     .articles-tab-item:last-child, .video-tab-item:last-child, .gallery-tab-item:last-child{
         border-left: 1px solid #D7D6D6;
     }
@@ -2044,7 +2083,7 @@ border-left: 1px solid #D7D6D6;
 }
 @media(max-width: 1006px){
     .articles-tab-container, .gallery-tab-container, .video-tab-container{
-        justify-content: center;
+  
         width: 90%;
 
     }
@@ -2052,15 +2091,8 @@ border-left: 1px solid #D7D6D6;
         border-left: 1px solid #D7D6D6 !important;
     }
 }
-// @media(max-width: 548px){
-// .location{
-//     margin-top: 75px !important;
-// }
-// }
 
 @media(max-width: 479px){
-   
-  
     .small-imgs-history1, .img-small-icons2{
         width: 300px;
     }
@@ -2165,9 +2197,6 @@ border-left: 1px solid #D7D6D6;
     .header-left .donation {
         padding: 11px 58px !important;
     }
-    .schedule-part-left{
-        margin-left: 8px !important;
-    }
 }
 @media(max-width: 800px){
     .tab1-container{
@@ -2215,12 +2244,7 @@ border-left: 1px solid #D7D6D6;
         bottom: 565px;
     }
 }
-@media(max-width: 900px){
-    .articles-tab-container, .gallery-tab-container, .video-tab-container{
-        justify-content: center;
-        align-items: center;
-    }
-}
+
 @media(max-width: 692px){
     .tab1-btns div{
         margin: 0 24px;

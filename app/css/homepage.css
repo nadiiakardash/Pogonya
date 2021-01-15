@@ -94,7 +94,16 @@ body {
   justify-content: space-between; }
 
 .header-right-icons {
-  margin-left: -10px; }
+  margin-left: 0px; }
+
+.header-right-icons a {
+  text-decoration: none; }
+
+.header-right-icons-item {
+  margin-right: 10px; }
+
+.header-right-icons a:hover svg path {
+  fill: #C1922E; }
 
 .header-right {
   margin-top: 10px;
@@ -657,6 +666,10 @@ body {
   height: 36px;
   margin-top: 26px; }
 
+.show-all-link {
+  text-decoration: none;
+  color: #DBA059; }
+
 .show-all {
   line-height: 48px;
   background: transparent;
@@ -855,7 +868,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  margin: 193px auto 0 auto;
+  margin: 0px auto 0 auto;
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -1085,10 +1098,17 @@ span.swiper-pagination-bullet:after {
     width: 100% !important;
     margin-left: 0px;
     padding-left: 10px; }
-  .dropdown-content {
-    padding: 54px 54px 54px 10px; }
+  .dropdown-content, .dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4, .dropdown-content5, .dropdown-content6 {
+    padding: 0px 54px 54px 10px; }
   .dropdown-content-text p {
-    font-size: 17px; } }
+    font-size: 15px;
+    padding-left: 30px; }
+  .about {
+    margin: 80px auto 8px auto; }
+  .schedule-part .schedule-part-container {
+    margin: 20px auto; }
+  .svidchenya .svidchenya-container {
+    margin-bottom: 40px; } }
 
 .dropdown-img {
   width: 319px;
@@ -1160,7 +1180,7 @@ span.swiper-pagination-bullet:after {
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    margin: 169px auto 0 auto;
+    margin: 50px auto 0 auto;
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -1276,9 +1296,11 @@ footer {
       footer .footer .footer-info .footer-social-media {
         display: flex;
         flex-wrap: nowrap; }
-      footer .footer .footer-info .footer-social-media img {
-        padding: 0 15px;
+      footer .footer .footer-info .footer-social-media svg {
+        margin: 0 15px;
         height: 20px; }
+    footer .footer .footer-social-media a:hover svg path {
+      fill: #C1922E; }
     footer .footer .footer-donation a {
       color: #fff;
       text-decoration: none; }
@@ -1678,6 +1700,12 @@ footer {
 @media (max-width: 1055px) {
   .parallax h4 {
     left: 39%; } }
+
+@media (max-width: 333px) {
+  .header-left .donation {
+    padding: 11px 58px !important; }
+  .schedule-part-left {
+    margin-left: 8px !important; } }
 
 @media (max-width: 800px) {
   .tab1-container {

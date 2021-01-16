@@ -550,7 +550,11 @@
 @media (max-width: 1406px){
     .header-right{
         margin-left: 30px;
+        line-height: 14px;
     }
+    // .header-left .header-button-online{
+    //     padding: 12px !important;
+    // }
 }
 @media (max-width: 1406px){
    
@@ -601,6 +605,10 @@ color: #FFFFFF;
 .header-button-online{
     order: 2;
 }
+.header-left .online-img {
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
 .header-button-online-overlay{
     order: 2;
     margin-right: 30px;
@@ -619,13 +627,16 @@ color: #FFFFFF;
 .header-left .header-button-online{
     font-size: 0px;
     margin-right: 40px;
-    padding: 14px 10px 11px 18px !important;
+    line-height: 1px !important;
+    padding: 8px 9px !important;
+}
+.header-left{
+    margin-top: 17px !important;
+}
 }
 
-.header-left .donation{
-    padding: 15px 77px !important;
-}
-
+.header-left .donation {
+    padding: 8px 38px !important;
 }
 @media (max-height: 569px){
     .location {
@@ -667,7 +678,7 @@ color: #FFFFFF;
 
 @media (max-width: 812px) {
     .home-burger {
-        margin-top: 30px;
+        margin-top: 0px;
     }
 }
 @media (max-width: 624px){
@@ -685,11 +696,8 @@ color: #FFFFFF;
         padding: 15px 49px !important;
     }
 }
-@media (max-width: 611px){
-.header-left .header-button-online {
-    padding: 14px 22px 11px 18px !important;
-}
-}
+
+
 @media (max-width: 633px){
     .header-left-overlay{
         display: flex;

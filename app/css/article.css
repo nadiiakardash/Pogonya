@@ -4,16 +4,20 @@
   margin-left: 76px; }
 
 .closebtn {
-  display: none; }
+  display: none;
+  z-index: 500;
+  margin-top: 20px !important; }
 
 #article-burger-btn {
-  display: block;
+  display: none;
   margin: 10px auto; }
 
 .overlay {
   width: 0;
   position: absolute;
   z-index: 101;
+  top: 0;
+  left: 0;
   overflow-x: hidden;
   height: 100%;
   transition: 0.5s;
@@ -82,7 +86,7 @@
   .main-header-left .main-header-left-online {
     outline: none;
     margin-right: 30px;
-    padding: 18px 49.5px;
+    padding: 15px 22px;
     border: none;
     border: 1px solid #DAB045;
     font-weight: 600;
@@ -103,7 +107,7 @@
     color: #FFFFFF;
     background: linear-gradient(97.64deg, #C19332 7.65%, #DAB045 86.12%);
     border-radius: 40px;
-    padding: 18px 81.5px;
+    padding: 15px 77px;
     border: none;
     margin-right: 30px;
     font-weight: 600;
@@ -200,6 +204,9 @@
     display: inline-block;
     margin-left: 38%; }
 
+.overlay-navigation {
+  margin-top: 50px; }
+
 .overlay-navigation-item {
   margin: 0 auto;
   width: 100%;
@@ -271,9 +278,33 @@
   .article-content .article-socials {
     margin-left: 36%; } }
 
+@media (max-width: 1459px) {
+  .header-second {
+    margin-left: 30px; }
+  .map-container-info {
+    left: 30px; }
+  .bus-schedule .bus-schedule-container .bus-schedule-left {
+    margin-left: 30px !important; }
+  .bus-schedule .bus-schedule-container .bus-schedule-right {
+    margin-right: 30px; } }
+
 @media (max-width: 712px) {
   .article-content .article-socials {
     margin-left: 34%; } }
+
+@media (max-width: 1600px) {
+  .main-header-left .main-header-left-donation {
+    padding: 15px 77px; }
+  .main-header-left .main-header-left-online {
+    margin-right: 20px; }
+  .main-header-right .main-nav-list-item {
+    padding: 0 8px !important; } }
+
+@media (max-width: 1548px) {
+  .main-header-left .main-header-left-online {
+    padding: 15px 9px; }
+  .main-header-left .main-header-left-donation {
+    padding: 15px 57px; } }
 
 @media (max-width: 576px) {
   .article-content .article-socials {

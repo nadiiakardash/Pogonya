@@ -1,7 +1,7 @@
 .gallery-container {
   max-width: 875px;
   width: 100%;
-  margin: 20px auto; }
+  margin: 150px auto 0 auto; }
   .gallery-container .gallery-subtitle {
     font-weight: 400;
     margin-top: 84px;
@@ -62,3 +62,9 @@
 @media (max-width: 380px) {
   .gallery-container .gallery-socials {
     margin-left: 19%; } }
+
+@media (max-width: 1550px) {
+  .main-header-left .main-header-left-donation {
+    margin-right: 30px !important; }
+  .main-header-left .main-header-left-donation {
+    margin-right: 0px !important; } }

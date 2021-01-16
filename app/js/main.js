@@ -1,3 +1,17 @@
+var header = $('.header-second'),
+	scrollPrev = 0;
+
+$(window).scroll(function() {
+	var scrolled = $(window).scrollTop();
+ 
+	if ( scrolled > 100 && scrolled > scrollPrev ) {
+		header.addClass('out');
+	} else {
+		header.removeClass('out');
+	}
+	scrollPrev = scrolled;
+});
+
 AOS.init();
 
 // You can also pass an optional settings object
@@ -48,6 +62,12 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
   var galleryTop = new Swiper('.gallery-top', {
    
     loop: true,
+
+    effect: 'fade',
+    autoplay:{
+      delay: 6000,
+      autoplayDisableOnInteraction: false,
+    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -178,3 +198,18 @@ for (let anchor of anchors) {
     })
   })
 }
+
+
+var header = $('.header'),
+	scrollPrev = 0;
+
+$(window).scroll(function() {
+	var scrolled = $(window).scrollTop();
+ 
+	if ( scrolled > 100 && scrolled > scrollPrev ) {
+		header.addClass('out');
+	} else {
+		header.removeClass('out');
+	}
+	scrollPrev = scrolled;
+});

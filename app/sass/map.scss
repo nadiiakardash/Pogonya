@@ -1,10 +1,11 @@
 .map-container{
   width: 100%;
   max-width: 1472px;
+  margin: 190px auto 0 auto;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  margin: 40px auto;
+
 }
 .map-container-info{
   background: #272626;
@@ -323,7 +324,7 @@ color:#C19332;
     }
   }
   .main-header-right .main-nav-list-item:first-child{
-    padding-left: 0px;
+    padding-left: 0px !important;
   }
   @media(max-width: 1776px){
     .articles-tab-container, .gallery-tab-container, .video-tab-container{

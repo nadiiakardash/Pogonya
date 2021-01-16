@@ -1473,7 +1473,7 @@ footer {
   .schedule-part-left {
     padding-left: 10px !important; } }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .parallax-window {
     height: 400px; }
   .parallax-window-content p {
@@ -1533,7 +1533,13 @@ footer {
   .history-left .history-img2 {
     left: 294px; } }
 
-@media (max-width: 335px) {
+@media (max-width: 329px) {
+  .img-small-icons1 {
+    left: 190px !important; } }
+
+@media (max-width: 345px) {
+  .img-small-icons1 {
+    left: 194px !important; }
   .dropdownlink {
     font-size: 14px; } }
 

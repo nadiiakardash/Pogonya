@@ -91,7 +91,7 @@ padding: 0 10px;
 }
 // styles for header
 .header{
-    
+    // border-bottom: 0.5px solid grey;
     position: absolute;
     margin-top: 20px;
     z-index: 100;
@@ -1782,7 +1782,7 @@ footer{
         padding-left: 10px !important;
     }
 }
-@media(max-width: 1300px){
+@media(max-width: 1400px){
     .parallax-window{
         height: 400px;
     }
@@ -1868,7 +1868,20 @@ footer{
         left: 294px;
     }
 }
-@media(max-width: 335px){
+@media(max-width: 392px){
+    .dropdown-content, .dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4, .dropdown-content5, .dropdown-content6{\
+        padding: 0px 13px 54px 10px;
+    }
+}
+@media(max-width: 329px){
+    .img-small-icons1 {
+        left: 190px !important;
+    }
+}
+@media(max-width: 345px){
+    .img-small-icons1 {
+        left: 194px !important;
+    }
     .dropdownlink {
         font-size: 14px;
     }

@@ -50,6 +50,7 @@
 
         .main-header-email {
             padding: 0 21px;
+            margin-left: 41px;
             text-decoration: none;
             color: #000000;
             &:hover {
@@ -67,10 +68,11 @@
         .main-lang {
             display: flex;
             list-style: none;
+            margin-left: 41px;
         }
 
         .main-lang-item {
-            padding: 0 10px;
+            padding: 0 3px;
             font-weight: 400;
             font-size: 14px;
             line-height: 24px;

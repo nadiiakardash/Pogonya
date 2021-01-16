@@ -105,7 +105,7 @@ body {
   text-decoration: none; }
 
 .header-right-icons-item {
-  margin-right: 10px; }
+  margin-right: 29px; }
 
 .header-right-icons a:hover svg path {
   fill: #C1922E; }
@@ -122,16 +122,18 @@ body {
     margin-left: 20px; }
     .header-right-info h4,
     .header-right-info .header-phone, .header-right-info .header-email {
-      padding: 0 15px; }
+      padding: 0 15px;
+      margin-left: 41px; }
       .header-right-info h4:hover,
       .header-right-info .header-phone:hover, .header-right-info .header-email:hover {
         color: #DAB045; }
   .header-right-lang {
     list-style: none;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-left: 41px; }
     .header-right-lang .header-right-lang-item {
       display: inline-block;
-      padding: 0 10px; }
+      padding: 0 3px; }
       .header-right-lang .header-right-lang-item a {
         font-size: 14px;
         font-weight: 400;
@@ -2185,6 +2187,7 @@ footer {
       display: flex; }
     .main-header-right-first .main-header-email {
       padding: 0 21px;
+      margin-left: 41px;
       text-decoration: none;
       color: #000000; }
       .main-header-right-first .main-header-email:hover {
@@ -2196,9 +2199,10 @@ footer {
         color: #DAB045; }
     .main-header-right-first .main-lang {
       display: flex;
-      list-style: none; }
+      list-style: none;
+      margin-left: 41px; }
     .main-header-right-first .main-lang-item {
-      padding: 0 10px;
+      padding: 0 3px;
       font-weight: 400;
       font-size: 14px;
       line-height: 24px;
@@ -2748,6 +2752,9 @@ footer {
     max-width: 277px;
     line-height: 24px;
     color: #FFFFFF; }
+
+.main-icons-item {
+  margin-right: 29px !important; }
 
 .bus-schedule {
   background-image: url(../img/icons/bg-ornament.svg);

@@ -171,18 +171,11 @@
 
 @media (max-width: 940px) {
   .map {
-    margin-left: 30px;
-    width: 94%; }
-  .contact-second {
-    margin-left: 30px;
-    width: 94%;
-    margin-right: 30px; }
+    width: 100%; }
   .main-header-left .main-header-left-donation {
     margin-right: 6px; } }
 
 @media (max-width: 932px) {
-  .map {
-    width: 94% !important; }
   .main-header-left .main-header-left-donation {
     margin-right: 30px; } }
 
@@ -202,8 +195,7 @@
 
 @media (max-width: 1483px) {
   .map {
-    margin-right: 30px;
-    width: 96%; } }
+    width: 100%; } }
 
 @media (max-width: 1619px) and (min-width: 1600px) {
   .main-header-left .main-header-left-donation {
@@ -261,7 +253,8 @@
 
 @media (max-width: 369px) {
   .main-header-left .main-header-left-donation {
-    padding: 18px 46px !important; }
+    padding: 18px 46px !important;
+    margin-right: 10px !important; }
   .main-header-left .main-header-left-online {
     font-size: 0;
     margin-right: 10px !important;

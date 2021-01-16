@@ -2161,6 +2161,9 @@ footer {
   z-index: 500;
   margin-top: 20px !important; }
 
+#home-overlay-list {
+  margin-top: 20px !important; }
+
 #article-burger-btn {
   display: none;
   margin: 10px auto; }
@@ -2365,7 +2368,7 @@ footer {
     margin-left: 38%; }
 
 .overlay-navigation {
-  margin-top: 20px; }
+  margin-top: 100px; }
 
 .overlay-navigation-item {
   margin: 0 auto;
@@ -2911,6 +2914,9 @@ footer {
   margin-left: 60px;
   margin-top: 35px;
   position: relative; }
+
+#home-overlay-list {
+  margin-top: 100px !important; }
 
 #burg-close {
   margin-top: 9px !important;

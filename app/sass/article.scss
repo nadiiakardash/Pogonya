@@ -133,11 +133,14 @@
 
 .main-header-left {
     margin-top: 27px;
+    display: flex;
+    align-items: flex-start;
     margin-right: 76px;
 
     .main-header-left-online {
         outline: none;
         margin-right: 30px;
+        
         padding: 15px 22px;
         border: none;
         border: 1px solid #DAB045;
@@ -400,6 +403,9 @@
     }
 }
 
+@media (max-width:654px){
+
+}
 @media (max-width:780px) {
     .article-content .article-socials {
         margin-left: 36%;

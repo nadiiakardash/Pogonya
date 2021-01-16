@@ -2238,6 +2238,8 @@ footer {
 
 .main-header-left {
   margin-top: 27px;
+  display: flex;
+  align-items: flex-start;
   margin-right: 76px; }
   .main-header-left .main-header-left-online {
     outline: none;
@@ -2910,6 +2912,12 @@ footer {
   margin-top: 35px;
   position: relative; }
 
+#burg-close {
+  margin-top: 9px !important;
+  margin-left: 30px;
+  font-weight: 300;
+  color: #DAB045; }
+
 #burg-icon {
   width: 27px;
   font-size: 40px;
@@ -3112,12 +3120,15 @@ footer {
   .main-header-left .main-header-left-donation {
     padding: 15px 77px; }
   #burg-icon #imgplus {
-    margin-left: 1px;
-    margin-top: 51px; } }
+    margin-left: 1px; } }
 
 @media (max-width: 667px) {
   .main-header-left .main-header-left-online svg {
     margin-right: 0px !important; }
+  .main-header-left .main-header-left-online {
+    order: 2; }
+  .main-header-left .main-header-left-donation {
+    margin-right: 40px; }
   .main-header-left .main-header-left-online {
     font-size: 0;
     margin-right: 30px; }
@@ -3129,20 +3140,24 @@ footer {
     .main-header-left .main-header-left-online .main-header-left .main-header-left-online img {
       padding-bottom: -8px; }
   .main-header-left .main-header-left-donation {
-    margin-right: 0px; }
-  .main-header-left .main-header-left-donation {
-    padding: 20px 68px !important; }
+    margin-right: 30px !important; }
+  .main-header-left .main-header-left-online {
+    padding: 11px 21px; }
   .main-header-left .main-header-left-online img {
     margin-top: 0px;
     margin-bottom: -8px;
     margin-right: -2px; } }
+
+@media (max-width: 435px) {
+  .main-header-left {
+    margin-right: 10px !important; } }
 
 @media (max-width: 418px) {
   .main-header-left .main-header-left-online {
     font-size: 0;
     margin-right: 20px !important; }
   .main-header-left .main-header-left-donation {
-    padding: 18px 55px !important; } }
+    padding: 15px 55px !important; } }
 
 @media (max-width: 369px) {
   .main-header-left .main-header-left-donation {
@@ -3329,8 +3344,8 @@ footer {
   .header-left-overlay {
     display: block;
     float: right; }
-  .overlay-navigation {
-    margin-top: 100px; }
+  .overlay {
+    top: -55px; }
   .header-left .header-button-online {
     font-size: 0px;
     margin-right: 40px;

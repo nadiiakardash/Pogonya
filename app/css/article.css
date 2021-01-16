@@ -85,6 +85,8 @@
 
 .main-header-left {
   margin-top: 27px;
+  display: flex;
+  align-items: flex-start;
   margin-right: 76px; }
   .main-header-left .main-header-left-online {
     outline: none;

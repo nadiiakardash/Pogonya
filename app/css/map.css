@@ -48,6 +48,7 @@
 
 .open-maps {
   position: absolute;
+  cursor: pointer;
   right: 80px;
   outline: none;
   bottom: 40px;

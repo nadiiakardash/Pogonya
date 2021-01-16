@@ -197,9 +197,6 @@ body {
 .overlay-icons a {
   padding: 0 23px; }
 
-.overlay-icons a:first-child {
-  margin-left: 55px; }
-
 .donation-overlay {
   color: #FFFFFF;
   background: linear-gradient(97.64deg, #C19332 7.65%, #DAB045 86.12%);
@@ -3223,9 +3220,9 @@ footer {
 
 .overlay-home .closebtn {
   position: absolute;
-  top: 2px;
-  transition: 2s;
+  top: 26px;
   display: block;
+  transition: 3s ease;
   transition: 0.3s;
   left: 45px;
   font-weight: 300;
@@ -3359,9 +3356,15 @@ footer {
   .header-left .donation {
     padding: 15px 77px !important; } }
 
+@media (max-height: 569px) {
+  .location {
+    bottom: 139px !important; } }
+
 @media (max-width: 1316px) {
   .header-right {
     display: none; }
+  .header {
+    border: none; }
   .home-burger {
     display: block;
     margin-left: 30px; } }

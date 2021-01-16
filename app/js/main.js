@@ -8,7 +8,7 @@ $(window).scroll(function() {
 		header.addClass('out');
 	} else {
 		header.removeClass('out');
-	}
+  }
 	scrollPrev = scrolled;
 });
 

@@ -421,9 +421,9 @@
 
 .overlay-home .closebtn {
     position: absolute;
-    top: 2px;
-    transition: 2s;
+    top: 26px;
     display: block;
+    transition: 3s ease;
     transition: 0.3s;
     left: 45px;
     font-weight: 300;
@@ -624,9 +624,17 @@ color: #FFFFFF;
 }
 
 }
+@media (max-height: 569px){
+    .location {
+        bottom: 139px !important;
+    }
+}
 @media (max-width: 1316px){
 .header-right{
     display: none;
+}
+.header{
+    border: none;
 }
 .home-burger{
     display: block;

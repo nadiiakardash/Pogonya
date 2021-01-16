@@ -1533,6 +1533,10 @@ footer {
   .history-left .history-img2 {
     left: 294px; } }
 
+@media (max-width: 392px) {
+  .dropdown-content, .dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4, .dropdown-content5, .dropdown-content6 {
+    padding: 0px 13px 54px 10px; } }
+
 @media (max-width: 329px) {
   .img-small-icons1 {
     left: 190px !important; } }
@@ -2970,11 +2974,32 @@ footer {
   .main-header-left .main-header-left-donation {
     margin-right: 6px; } }
 
-@media (max-width: 1335px) {
+@media (max-width: 932px) {
+  .map {
+    width: 94% !important; }
+  .main-header-left .main-header-left-donation {
+    margin-right: 30px; } }
+
+@media (max-width: 1339px) {
   .main-header-right {
     display: none; }
   #burg-icon {
-    display: block; }
+    display: block; } }
+
+@media (max-width: 1483px) {
+  .map {
+    margin-right: 30px;
+    width: 96%; } }
+
+@media (max-width: 1619px) and (min-width: 1600px) {
+  .main-header-left .main-header-left-donation {
+    padding: 15px 67px; } }
+
+@media (max-width: 1636px) and (min-width: 1549px) {
+  .main-header-left .main-header-left-online {
+    padding: 15px; } }
+
+@media (max-width: 1335px) {
   .main-header-left .main-header-left-online {
     padding: 15px 22px;
     margin-right: 40px; }
@@ -2985,6 +3010,8 @@ footer {
     margin-top: 51px; } }
 
 @media (max-width: 667px) {
+  .main-header-left .main-header-left-online svg {
+    margin-right: 0px !important; }
   .main-header-left .main-header-left-online {
     font-size: 0;
     margin-right: 30px; }
@@ -2995,6 +3022,8 @@ footer {
       padding-bottom: 8px !important; }
     .main-header-left .main-header-left-online .main-header-left .main-header-left-online img {
       padding-bottom: -8px; }
+  .main-header-left .main-header-left-donation {
+    margin-right: 0px; }
   .main-header-left .main-header-left-donation {
     padding: 20px 68px !important; }
   .main-header-left .main-header-left-online img {

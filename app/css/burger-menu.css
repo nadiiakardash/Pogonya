@@ -18,6 +18,9 @@
   font-weight: 300;
   color: #DAB045; }
 
+#map-navigation {
+  margin-top: 20px !important; }
+
 #burg-icon {
   width: 27px;
   font-size: 40px;

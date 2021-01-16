@@ -20,6 +20,9 @@ body {
   font-family: "Open Sans";
   position: relative; }
 
+a, button {
+  cursor: pointer; }
+
 .block3-container {
   margin-top: 30px;
   overflow: hidden; }

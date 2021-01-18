@@ -391,7 +391,7 @@
     top: 0;
     left: 0;
     background-color: #fff;
-    overflow-x: hidden;
+    overflow-y: hidden;
     transition: 0.5s;
 }
 
@@ -621,7 +621,7 @@ color: #FFFFFF;
     margin-right: 30px;
 }
 .donation-overlay{
-    margin-right: 31px;
+    margin-right: 30px;
     padding: 10px 42px; 
     margin-left: 0px;
 }
@@ -709,11 +709,14 @@ color: #FFFFFF;
 @media (max-width: 624px){
     .header-button-online-overlay{
         font-size: 0%;
-        padding: 13px 15px 7px 15px;
+        padding: 7px 10px 0px 11px;
         line-height: 14px;
     }
     .header-left .online-img{
         margin-right: -5px;
+    }
+    .donation-overlay {
+        padding: 8px 42px !important;
     }
 }
 
@@ -1046,7 +1049,7 @@ color: #FFFFFF;
             margin-left: 15px !important;
         }
         .donation-overlay {
-            margin-right: 16px;
+            
             margin-left: 0px;
         }
         .overlay-home .closebtn{
@@ -1073,8 +1076,4 @@ color: #FFFFFF;
         }
         
     }
-    @media (max-width: 329px){
-        .donation-overlay {
-            margin-right: 10px;}
-    }
-  
+    

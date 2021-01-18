@@ -351,7 +351,19 @@
 }
 @media (max-width:435px){
     .main-header-left {
-        margin-right: 10px !important;
+        margin-right: 15px !important;
+    }
+    .slider-subtitle{
+        padding-left: 15px !important;
+    }
+    .slider-title{
+        padding-left: 15px !important;
+    }
+    .location {
+        left: 15px;
+    }
+    .gallery-thumbs {
+        margin-left: 15px !important;
     }
 }
 @media (max-width:400px) {

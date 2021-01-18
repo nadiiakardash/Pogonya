@@ -183,7 +183,7 @@ a, button {
 .header-button-online-overlay {
   font-weight: 600;
   font-size: 16px;
-  padding: 12px 22px;
+  padding: 7.5px 22px;
   border-radius: 200px;
   line-height: 24px;
   color: #DAB045;
@@ -1457,6 +1457,10 @@ footer {
   .slider-title {
     font-size: 44px;
     line-height: 55px; } }
+
+@media (max-width: 1344px) and (min-width: 130px) {
+  .articles-tab-item, .video-tab-item, .gallery-tab-item {
+    width: 256px !important; } }
 
 @media (max-width: 657px) {
   .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {

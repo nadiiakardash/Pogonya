@@ -1,16 +1,16 @@
-var header = $('.header-second'),
-	scrollPrev = 0;
+// var header = $('.header-second'),
+// 	scrollPrev = 0;
 
-$(window).scroll(function() {
-	var scrolled = $(window).scrollTop();
+// $(window).scroll(function() {
+// 	var scrolled = $(window).scrollTop();
  
-	if ( scrolled > 100 && scrolled > scrollPrev ) {
-		header.addClass('out');
-	} else {
-		header.removeClass('out');
-  }
-	scrollPrev = scrolled;
-});
+// 	if ( scrolled > 100 && scrolled > scrollPrev ) {
+// 		header.addClass('out');
+// 	} else {
+// 		header.removeClass('out');
+//   }
+// 	scrollPrev = scrolled;
+// });
 
 
 

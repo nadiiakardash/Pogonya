@@ -32,16 +32,14 @@
     }
 }
 .header-second {
-	position: fixed;
+	position: relative;
     top: 0; left: 0;
   z-index: 500;
     background-color: rgba(255, 255, 255, 0.952);
-	width: 100%;
+	// width: 100%;
 	transition: all .3s ease;
 }
-.header-second.out {
-	transform: translateY(-100%);
-}
+
 
 .overlay1 {
     display: none;

@@ -100,7 +100,7 @@ padding: 0 10px;
     // border-bottom: 0.5px s  position: fixed;
 	top: 0; left: 0;
     width: 100%;
-    position: absolute !important;
+    position: absolute;
 	transition: all .3s ease;
     margin-top: 20px;
     z-index: 100;
@@ -109,6 +109,15 @@ padding: 0 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+@media(max-width: 800px){
+    .header{
+        margin-top: 0px !important;
+        padding: 30px 0px;
+        position: fixed !important;
+        background-color: #fff !important;
+
+    }
 }
 .header-right-icons{
     margin-left: 0px;
@@ -471,11 +480,15 @@ color: #466B9B;
        top: 70px;
        z-index:25;
        left: 100px;
+       -webkit-box-shadow: -9px 7px 24px 5px rgba(0,0,0,0.54); 
+       box-shadow: -9px 7px 24px 5px rgba(0,0,0,0.54);
     }
     .history-img2{
         top: 288px;
         z-index: 30;
         left: 536px;
+        -webkit-box-shadow: -9px 7px 24px 5px rgba(0,0,0,0.54); 
+        box-shadow: -9px 7px 24px 5px rgba(0,0,0,0.54);
      }
 }
 .block2-line-top{
@@ -658,14 +671,19 @@ margin-top: -40px;
     position: absolute;
     right: 0;
     top: 0;
+
 }
 .icons-right-img1{
     z-index: 30;
     right: 524px;
     top: 229px;
+    -webkit-box-shadow: 9px 7px 24px 5px rgba(0,0,0,0.54); 
+box-shadow: 9px 7px 24px 5px rgba(0,0,0,0.54);
 }
 .icons-right-img2{
     right: 81px;
+    -webkit-box-shadow: 9px 7px 24px 5px rgba(0,0,0,0.54); 
+box-shadow: 9px 7px 24px 5px rgba(0,0,0,0.54);
     top: 60px;
 }
 .swiper-pagination-bullet{
@@ -908,7 +926,7 @@ margin-top: -40px;
 }
 
 .header.out {
-	transform: translateY(-100%) !important;
+	transform: translateY(-200%) !important;
 }
 
 .tab-btn-gal-after{
@@ -1292,7 +1310,6 @@ span.swiper-pagination-bullet:after{
 .dropdown-container, .dropdown-container1, .dropdown-container2, .dropdown-container3, .dropdown-container4, .dropdown-container5,  .dropdown-container6{
     display: flex;
     margin-top: 30px;
-    min-height: 600px;
     position: relative;
 }
 .dropdown-icon1{
@@ -1313,6 +1330,7 @@ span.swiper-pagination-bullet:after{
     background: #627c9f1a;
     padding: 54px 54px 54px 193px;
     margin-left: 150px;
+    min-width: 600px;
 
 }
 // .dropdown-text-item:first-child{

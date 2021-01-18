@@ -1,16 +1,3 @@
-// var header = $('.header-second'),
-// 	scrollPrev = 0;
-
-// $(window).scroll(function() {
-// 	var scrolled = $(window).scrollTop();
- 
-// 	if ( scrolled > 100 && scrolled > scrollPrev ) {
-// 		header.addClass('out');
-// 	} else {
-// 		header.removeClass('out');
-//   }
-// 	scrollPrev = scrolled;
-// });
 
 
 
@@ -198,16 +185,79 @@ for (let anchor of anchors) {
 }
 
 
-var header = $('.header'),
-	scrollPrev = 0;
+// var header = $('.header'),
+// 	scrollPrev = 0;
+
+// $(window).scroll(function() {
+// 	var scrolled = $(window).scrollTop();
+ 
+// 	if ( scrolled > 100 && scrolled > scrollPrev ) {
+// 		header.addClass('out');
+// 	} else {
+// 		header.removeClass('out');
+// 	}
+// 	scrollPrev = scrolled;
+// });
+
+
+
+if($( window ).width() < 800) {
+  var header = $('.header'),
+ 
+  scrollPrev = 0;
 
 $(window).scroll(function() {
-	var scrolled = $(window).scrollTop();
+  var scrolled = $(window).scrollTop();
  
-	if ( scrolled > 100 && scrolled > scrollPrev ) {
-		header.addClass('out');
-	} else {
-		header.removeClass('out');
-	}
-	scrollPrev = scrolled;
+  if ( scrolled > 100 && scrolled > scrollPrev ) {
+    header.addClass('out');
+  
+  } else {
+    header.removeClass('out');
+  }
+  scrollPrev = scrolled;
+});
+}
+
+
+
+
+
+jQuery(document).ready(function() {
+  var myNav1 = document.getElementById("myNav1");
+  var myNav = document.getElementById("myNav");
+
+  jQuery(window).bind("load", function() {
+      jQuery('a:not(.spu-clickable)[href*="#"]:not([href="#"])').click(function() {
+    
+          if(myNav1) {
+            closeNav1()
+          }
+          if(myNav) {
+            closeNav()
+          }
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+              location.hostname == this.hostname) {
+              var target = jQuery(this.hash);
+              target = target.length ? target : jQuery('[name=' + this.hash.slice(1) + ']');
+              if (target.length) {
+                  jQuery("html, body").animate({
+                      
+                      scrollTop: target.offset().top - 150
+                  }, 500);
+                  return false;
+              }
+          }
+      });
+  });
+});
+jQuery(window).load(function() {
+  function goToByScroll(id) {
+      jQuery("html, body").animate({
+          scrollTop: jQuery("#" + id).offset().top - 150
+      }, 500);
+  }
+  if (window.location.hash != '') {
+      goToByScroll(window.location.hash.substr(1));
+  }
 });

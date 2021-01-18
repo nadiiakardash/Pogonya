@@ -157,6 +157,7 @@
     .bus-schedule .bus-schedule-container .bus-schedule-hr {
       width: 54px;
       border: 1px solid #C19332;
+      background-color: #C19332;
       margin-top: 20px; }
     .bus-schedule .bus-schedule-container .bus-schedule-left-text {
       font-weight: normal;

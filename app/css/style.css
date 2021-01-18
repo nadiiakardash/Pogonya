@@ -1642,7 +1642,8 @@ footer {
   .icons-part-left-container hr {
     display: none; }
   .history-right .history-right-container hr {
-    display: none; } }
+    display: none;
+    background-color: #C19332; } }
 
 @media (max-width: 1094px) {
   .icons-part-left-container {
@@ -2783,6 +2784,7 @@ footer {
     .bus-schedule .bus-schedule-container .bus-schedule-hr {
       width: 54px;
       border: 1px solid #C19332;
+      background-color: #C19332;
       margin-top: 20px; }
     .bus-schedule .bus-schedule-container .bus-schedule-left-text {
       font-weight: normal;

@@ -1642,7 +1642,8 @@ footer {
   .icons-part-left-container hr {
     display: none; }
   .history-right .history-right-container hr {
-    display: none; } }
+    display: none;
+    background-color: #C19332; } }
 
 @media (max-width: 1094px) {
   .icons-part-left-container {

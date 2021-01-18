@@ -33,6 +33,7 @@
 
 .main-header-right {
     margin-top: 20px;
+    margin-left: 76px;
 
   
 
@@ -171,7 +172,7 @@
         border-radius: 40px;
         padding: 13px 77px;
         border: none;
-        margin-right: 0px;
+        margin-right: 76px;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
@@ -411,11 +412,7 @@
         margin-left: 36%;
     }
 }
-@media (max-width:1594px){
-    .main-header-left .main-header-left-donation {
-        padding: 15px 55px !important;
-    }
-}
+
 @media (max-width:1525px){
     .main-header-right .main-nav-list-link, .main-header-right .main-nav-list-item a {
         font-size: 14px;
@@ -459,22 +456,13 @@
     .main-header-left .main-header-left-donation{
         padding: 15px 77px;
     }
-    .main-header-left .main-header-left-online{
-        margin-right: 20px;
-    }
+
     .main-header-right .main-nav-list-item {
         padding: 0 8px !important;
     }
 
 }
-@media (max-width:1548px){
-    .main-header-left .main-header-left-online{
-        padding: 15px 9px;
-    }
-    .main-header-left .main-header-left-donation {
-        padding: 15px 57px;
-    }
-}
+
 @media (max-width:576px) {
     .article-content .article-socials {
         margin-left: 30%;

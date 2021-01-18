@@ -128,8 +128,12 @@
     line-height: 24px;
     color: #FFFFFF; }
 
+.main-header-right-first .main-icons-item {
+  text-decoration: none !important; }
+
 .main-icons-item {
-  margin-right: 29px !important; }
+  margin-right: 29px !important;
+  text-decoration: none !important; }
 
 .bus-schedule {
   background-image: url(../img/icons/bg-ornament.svg);

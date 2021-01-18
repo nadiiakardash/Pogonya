@@ -2170,13 +2170,13 @@ footer {
   margin: 10px auto; }
 
 .overlay {
-  width: 0;
+  width: 100%;
   position: absolute;
   z-index: 101;
   top: 0;
   left: 0;
-  overflow-x: hidden;
-  height: 100%;
+  overflow-y: hidden;
+  height: 0%;
   transition: 0.5s;
   background-color: #fff; }
 
@@ -2964,10 +2964,6 @@ footer {
   .header-second {
     margin-left: 35px; } }
 
-@media (min-width: 1420px) {
-  #burg-icon {
-    display: none !important; } }
-
 @media (max-width: 1565px) {
   .header-left .header-button-online {
     margin-right: 5px; }
@@ -3034,7 +3030,7 @@ footer {
   .main-header-left .main-header-left-online svg {
     margin-right: 0px; } }
 
-@media (max-width: 1420px) {
+@media (max-width: 1458px) {
   .main-header-left .main-header-left-online {
     font-size: 0;
     order: 2;
@@ -3042,7 +3038,11 @@ footer {
     padding: 9px 10px 12px 10px; }
   .main-header-left .main-header-left-donation {
     padding: 9px 65px;
-    margin-right: 30px !important; } }
+    margin-right: 30px !important; }
+  .main-header-left .main-header-left-online svg {
+    margin-top: 0px;
+    margin-bottom: -3px;
+    margin-right: 0px; } }
 
 @media (max-width: 1385px) {
   .header-second {
@@ -3092,11 +3092,7 @@ footer {
   .header-second {
     margin-left: 0px !important; }
   #burg-icon #imgplus {
-    margin-left: 30px !important; }
-  .main-header-right {
-    display: none; }
-  #burg-icon {
-    display: block; } }
+    margin-left: 30px !important; } }
 
 @media (max-width: 1483px) {
   .map {
@@ -3110,7 +3106,7 @@ footer {
   .map-container-info {
     left: 30px; }
   .main-header-right {
-    margin-left: 0px; }
+    margin-left: 30px; }
   .main-header-left .main-header-left-donation {
     margin-right: 30px; } }
 
@@ -3125,20 +3121,10 @@ footer {
     order: 2; }
   .main-header-left .main-header-left-donation {
     margin-right: 40px; }
-  .main-header-left .main-header-left-online {
-    font-size: 0;
-    margin-right: 30px; }
-    .main-header-left .main-header-left-online .main-header-left .main-header-left-online {
-      font-size: 0;
-      margin-right: 10px !important;
-      padding-top: 19px;
-      padding-bottom: 8px !important; }
-    .main-header-left .main-header-left-online .main-header-left .main-header-left-online img {
-      padding-bottom: -8px; }
+  .main-header-left .main-header-left-online img {
+    padding-bottom: -8px; }
   .main-header-left .main-header-left-donation {
     margin-right: 30px !important; }
-  .main-header-left .main-header-left-online {
-    padding: 11px 21px; }
   .main-header-left .main-header-left-online img {
     margin-top: 0px;
     margin-bottom: -8px;
@@ -3148,22 +3134,20 @@ footer {
   .main-header-left {
     margin-right: 10px !important; } }
 
+@media (max-width: 400px) {
+  .main-header-left .main-header-left-donation {
+    padding: 9px 37px; } }
+
 @media (max-width: 418px) {
   .main-header-left .main-header-left-online {
     font-size: 0;
-    margin-right: 20px !important; }
+    margin-right: 20px !important; } }
+
+@media (max-width: 347px) {
   .main-header-left .main-header-left-donation {
-    padding: 15px 55px !important; } }
+    margin-right: 25px !important; } }
 
 @media (max-width: 369px) {
-  .main-header-left .main-header-left-donation {
-    padding: 18px 46px !important;
-    margin-right: 10px !important; }
-  .main-header-left .main-header-left-online {
-    font-size: 0;
-    margin-right: 10px !important;
-    padding-top: 19px;
-    padding-bottom: 10px; }
   .main-header-left .main-header-left-online img {
     padding-bottom: -8px; } }
 
@@ -3352,8 +3336,6 @@ footer {
   .header-left-overlay {
     display: block;
     float: right; }
-  .overlay {
-    top: -55px; }
   .header-left .header-button-online {
     font-size: 0px;
     margin-right: 40px;
@@ -3366,9 +3348,24 @@ footer {
   .location {
     bottom: 139px !important; } }
 
+@media (max-width: 337px) {
+  #burg-icon #imgplus {
+    margin-left: 15px !important; }
+  .main-header-left .main-header-left-donation {
+    margin-right: 22px !important; } }
+
 @media (max-width: 1316px) {
   .header-right {
     display: none; }
+  .main-header-left {
+    margin-top: 20px; }
+  #burg-icon #imgplus {
+    margin-left: 1px;
+    margin-top: 31px; }
+  .main-header-right {
+    display: none; }
+  #burg-icon {
+    display: block; }
   .header {
     border: none; }
   .home-burger {
@@ -3439,10 +3436,6 @@ footer {
   .header-left .header-button-online span img {
     margin-right: 0px;
     margin-bottom: -2px; } }
-
-@media (max-width: 340px) {
-  .main-header-left .main-header-left-donation {
-    padding: 18px 37px !important; } }
 
 @media (max-width: 337px) {
   .home-burger {

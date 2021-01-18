@@ -95,18 +95,17 @@ padding: 0 10px;
 // styles for header
 .header-second{
     background: #fff !important;
-
 }
 .header{
-    // border-bottom: 0.5px solid grey;
-    position: fixed;
+    // border-bottom: 0.5px s  position: fixed;
 	top: 0; left: 0;
-	width: 100%;
+    width: 100%;
+    position: absolute !important;
 	transition: all .3s ease;
     margin-top: 20px;
     z-index: 100;
     border-bottom: 1px solid rgba(224, 224, 224, 0.2);
-    background: transparent;
+    background: transparent !important;
     width: 100%;
     display: flex;
     justify-content: space-between;

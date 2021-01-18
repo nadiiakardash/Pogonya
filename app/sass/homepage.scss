@@ -99,12 +99,13 @@ padding: 0 10px;
 }
 .header{
     // border-bottom: 0.5px solid grey;
-    position: absolute;
+    position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	transition: all .3s ease;
     margin-top: 20px;
     z-index: 100;
     border-bottom: 1px solid rgba(224, 224, 224, 0.2);
-    top: 0;
-    left: 0;
     background: transparent;
     width: 100%;
     display: flex;
@@ -906,6 +907,9 @@ margin-top: -40px;
     opacity: 1;
 }
 
+.header.out {
+	transform: translateY(-100%) !important;
+}
 
 .tab-btn-gal-after{
     position: absolute;

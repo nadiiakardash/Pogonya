@@ -12,6 +12,23 @@ $(window).scroll(function() {
 	scrollPrev = scrolled;
 });
 
+
+// homepageheader
+var header1 = $('.header'),
+	scrollPrev = 0;
+
+$(window).scroll(function() {
+	var scrolled = $(window).scrollTop();
+ 
+	if ( scrolled > 100 && scrolled > scrollPrev) {
+		header1.addClass('out');
+	} else {
+		header1.removeClass('out');
+  }
+  scrollPrev = scrolled;
+
+});
+
 AOS.init();
 // You can also pass an optional settings object
 // below listed default settings

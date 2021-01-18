@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   margin-left: 60px;
-  margin-top: 35px;
+  margin-top: 20px;
   position: relative;
 }
 #home-overlay-list{
@@ -384,8 +384,8 @@
 
 //burger menu
 .overlay-home {
-    height: 100%;
-    width: 0;
+    height: 0%;
+    width: 100%;
     position: fixed;
     z-index: 50000;
     top: 0;
@@ -575,7 +575,7 @@
 @media (max-width: 675px){
     .slider-title{
         font-weight: 800;
-font-size: 36px;
+font-size: 32px;
 line-height: 48px;
 /* or 133% */
 
@@ -603,7 +603,7 @@ color: #FFFFFF;
 }
 @media (max-width: 1366px){
     .header-left .donation {
-        padding: 9px 42px !important;
+        padding: 8px 42px !important;
     }
     .donation-overlay{
         padding: 9px 42px !important;
@@ -673,7 +673,7 @@ color: #FFFFFF;
 
 @media (max-width: 625px){
     .header-left .header-button-online{
-        padding: 9px 12px !important
+        padding: 8px 12px !important
     }
     .online-img{
         margin-right: -3px;
@@ -787,7 +787,7 @@ color: #FFFFFF;
 }
 @media(max-width: 329px){
     .header-left .header-button-online {
-        margin-right: 10px;
+        margin-right: 15px;
     }
 }
 @media(max-height: 912px){
@@ -1046,7 +1046,7 @@ color: #FFFFFF;
 
       @media (max-width: 435px){
         img.home-burger{
-            margin-left: 15px !important;
+            margin-left: 10px !important;
         }
         .donation-overlay {
             

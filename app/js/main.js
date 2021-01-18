@@ -85,20 +85,20 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
   });
 
   function openNav() {
-    document.getElementById("myNav").style.width = "100%";
+    document.getElementById("myNav").style.height = "100%";
     document.getElementById("burg-icon").style.display = "none";
     document.getElementById("burg-close").style.display = "block";
 
   }
   function openNav1() {
-    document.getElementById("myNav1").style.width = "100%";
+    document.getElementById("myNav1").style.height = "100%";
   }
   
   function closeNav1() {
-    document.getElementById("myNav1").style.width = "0%";
+    document.getElementById("myNav1").style.height = "0%";
   }
   function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
+    document.getElementById("myNav").style.height = "0%";
     document.getElementById("burg-icon").style.display = "block";
     document.getElementById("burg-close").style.display = "none";
   }

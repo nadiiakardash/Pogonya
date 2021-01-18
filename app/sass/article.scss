@@ -8,7 +8,7 @@
 .closebtn {
     display: none;
     z-index: 500;
-    margin-top: 14px !important;
+    margin-top: 0px !important;
 }
 #home-overlay-list{
     margin-top: 20px !important;
@@ -305,7 +305,7 @@
     }
 }
 .overlay-navigation{
-    margin-top: 100px;
+    margin-top: 50px !important;
 }
 .overlay-navigation-item {
     margin: 0 auto;

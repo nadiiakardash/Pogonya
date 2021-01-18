@@ -1693,7 +1693,7 @@ footer {
   .pray-name {
     padding-right: 10px; }
   .dropdown-container, .dropdown-container1, .dropdown-container2, .dropdown-container3, .dropdown-container4, .dropdown-container5, .dropdown-container6 {
-    padding: 0px 25px; } }
+    padding: 0px; } }
 
 @media (max-width: 1056px) {
   .schedule-part .schedule-part-container .schedule-part-right .schedule-part-right-item:nth-child(3) {
@@ -2101,7 +2101,7 @@ footer {
   .home-burger {
     margin-left: 13px !important; }
   .header-left .donation {
-    margin-right: 25px !important; }
+    margin-right: 30px !important; }
   .overlay-home .closebtn {
     left: 20px; } }
 
@@ -2161,7 +2161,7 @@ footer {
 .closebtn {
   display: none;
   z-index: 500;
-  margin-top: 14px !important; }
+  margin-top: 0px !important; }
 
 #home-overlay-list {
   margin-top: 20px !important; }
@@ -2370,7 +2370,7 @@ footer {
     margin-left: 38%; }
 
 .overlay-navigation {
-  margin-top: 100px; }
+  margin-top: 50px !important; }
 
 .overlay-navigation-item {
   margin: 0 auto;
@@ -2915,7 +2915,7 @@ footer {
   display: flex;
   justify-content: center;
   margin-left: 60px;
-  margin-top: 35px;
+  margin-top: 20px;
   position: relative; }
 
 #home-overlay-list {
@@ -3185,8 +3185,8 @@ footer {
   display: none; }
 
 .overlay-home {
-  height: 100%;
-  width: 0;
+  height: 0%;
+  width: 100%;
   position: fixed;
   z-index: 50000;
   top: 0;
@@ -3320,7 +3320,7 @@ footer {
 @media (max-width: 675px) {
   .slider-title {
     font-weight: 800;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 48px;
     /* or 133% */
     text-transform: uppercase;
@@ -3340,7 +3340,7 @@ footer {
 
 @media (max-width: 1366px) {
   .header-left .donation {
-    padding: 9px 42px !important; }
+    padding: 8px 42px !important; }
   .donation-overlay {
     padding: 9px 42px !important; }
   .header-button-online {
@@ -3389,7 +3389,7 @@ footer {
 
 @media (max-width: 625px) {
   .header-left .header-button-online {
-    padding: 9px 12px !important; }
+    padding: 8px 12px !important; }
   .online-img {
     margin-right: -3px; } }
 
@@ -3468,7 +3468,7 @@ footer {
 
 @media (max-width: 329px) {
   .header-left .header-button-online {
-    margin-right: 10px; } }
+    margin-right: 15px; } }
 
 @media (max-height: 912px) {
   .location {
@@ -3665,7 +3665,7 @@ footer {
 
 @media (max-width: 435px) {
   img.home-burger {
-    margin-left: 15px !important; }
+    margin-left: 10px !important; }
   .donation-overlay {
     margin-left: 0px; }
   .overlay-home .closebtn {

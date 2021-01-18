@@ -1693,7 +1693,7 @@ footer {
   .pray-name {
     padding-right: 10px; }
   .dropdown-container, .dropdown-container1, .dropdown-container2, .dropdown-container3, .dropdown-container4, .dropdown-container5, .dropdown-container6 {
-    padding: 0px 25px; } }
+    padding: 0px; } }
 
 @media (max-width: 1056px) {
   .schedule-part .schedule-part-container .schedule-part-right .schedule-part-right-item:nth-child(3) {
@@ -2101,7 +2101,7 @@ footer {
   .home-burger {
     margin-left: 13px !important; }
   .header-left .donation {
-    margin-right: 25px !important; }
+    margin-right: 30px !important; }
   .overlay-home .closebtn {
     left: 20px; } }
 

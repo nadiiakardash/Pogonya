@@ -410,7 +410,7 @@
 @media (max-width: 675px) {
   .slider-title {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 29px;
     line-height: 48px;
     /* or 133% */
     text-transform: uppercase;
@@ -588,9 +588,21 @@
 
 @media (max-height: 673px) {
   .overlay-navigation-item {
-    height: 48px !important; }
+    height: 41px !important; }
   .overlay-tel, .overlay-email {
     font-size: 15px; } }
+
+@media (max-height: 1370px) {
+  .overlay-navigation {
+    margin-top: 64px !important; } }
+
+@media (max-height: 824px) {
+  .overlay-navigation {
+    margin-top: 61px !important; } }
+
+@media (max-height: 1024px) {
+  .overlay-navigation {
+    margin-top: 64px !important; } }
 
 @media (max-height: 569px) {
   .overlay-content {
@@ -765,6 +777,10 @@
     padding: 0 13px !important; }
   .articles-tab-item, .video-tab-item, .gallery-tab-item {
     width: 256px !important; } }
+
+@media (max-height: 732px) {
+  .overlay-navigation {
+    margin-top: 60px !important; } }
 
 @media (max-width: 435px) {
   img.home-burger {

@@ -1673,6 +1673,10 @@ footer {
   .articles-tab-item:nth-child(2), .video-tab-item:nth-child(2), .gallery-tab-item:nth-child(2) {
     border-left: 1px solid #D7D6D6; } }
 
+@media (max-width: 325px) {
+  .header-left .donation {
+    margin-right: 25px !important; } }
+
 @media (max-width: 1135px) {
   .pray-title {
     margin-bottom: 0px; }

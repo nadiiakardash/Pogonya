@@ -2334,11 +2334,7 @@ border-left: 1px solid #D7D6D6;
     margin-left: 30px;
 }
 }
-@media(max-width: 436px){
-.header{
-    margin-top: 5px;
-}
-}
+
 @media(max-width: 820px){
     .tab1-container{
         background: none;
@@ -2640,14 +2636,15 @@ border-left: 1px solid #D7D6D6;
     }
 }
 
-@media(max-width: 354px){
-    .header-left .donation{
-       margin-right: 9px !important; 
-    }
-}
+
 @media(max-width: 337px){
     .home-burger {
         margin-left: 13px !important;
+    }
+    .header-left .donation{
+
+    margin-right: 25px !important;
+
     }
     .overlay-home .closebtn{
         left: 20px;

@@ -524,7 +524,7 @@
 }
 @media (max-width: 1383px){
     .header-left .donation {
-        padding: 13px 42px !important;
+        padding: 15px 42px !important;
     }
 }
 @media (max-width: 1422px) and (min-width: 1366px){
@@ -602,6 +602,9 @@ color: #FFFFFF;
   
 }
 @media (max-width: 1366px){
+    .header-left .donation {
+        padding: 9px 42px !important;
+    }
 .header-button-online{
     order: 2;
 }
@@ -628,16 +631,14 @@ color: #FFFFFF;
     font-size: 0px;
     margin-right: 40px;
     line-height: 1px !important;
-    padding: 8px 9px !important;
+    padding: 9px 10px !important;
 }
 .header-left{
-    margin-top: 17px !important;
+    margin-top: 34px !important;
 }
 }
 
-.header-left .donation {
-    padding: 8px 38px !important;
-}
+
 @media (max-height: 569px){
     .location {
         bottom: 139px !important;
@@ -665,10 +666,22 @@ color: #FFFFFF;
     }
 }
 
+@media (max-width: 625px){
+    .header-left .header-button-online{
+        padding: 9px 12px !important
+    }
+    .online-img{
+        margin-right: -3px;
+    }
+}
 @media (max-width: 1239px){
     .header-right {
         display: none;
       
+    }
+    
+    .header-left {
+        margin-top: 0px !important;
     }
     .home-burger{
         display: block;
@@ -691,11 +704,7 @@ color: #FFFFFF;
         margin-right: -5px;
     }
 }
-@media (max-width: 415px){
-    .header-left .donation {
-        padding: 15px 49px !important;
-    }
-}
+
 
 
 @media (max-width: 633px){
@@ -704,11 +713,7 @@ color: #FFFFFF;
 
     }
 }
-@media (max-width: 350px){
-    .header-left .donation {
-        padding: 15px 45px !important;
-    }
-}
+
 @media (max-width: 475px){
     .header-left .header-button-online {
         margin-right: 15px;}
@@ -1060,8 +1065,4 @@ color: #FFFFFF;
         .donation-overlay {
             margin-right: 10px;}
     }
-    @media (max-width: 371px){
-        .header-left .donation {
-            margin-right: 15px;
-        }
-    }
+  

@@ -14,7 +14,7 @@
 }
 #burg-close{
     margin-top: 9px !important;
-    margin-left: 15px;
+    margin-left: 30px;
     font-weight: 300;
     color:#DAB045;
 }
@@ -273,19 +273,33 @@
 //         display: block;
 //     }
 }
-@media (max-width:1483px){
-    .map{
-   
-        width: 100%;
-    }
-}
+
 @media (max-width:1619px) and (min-width: 1600px){
     .main-header-left .main-header-left-donation{
        padding: 15px 67px; 
     }
     
 }
-
+@media (max-width:394px){
+    .open-maps {
+        left: 21%;
+    }
+}
+@media (max-width:336px){
+    .open-maps {
+        left: 16%;
+    }
+}
+@media (max-height:646px){
+    .open-maps{
+        bottom: 86px !important;
+    }
+}
+@media (max-height:569px){
+    .open-maps{
+        bottom: 102px !important;
+    }
+}
 @media (max-width:1634px){
     .map-container-info{
         left: 30px;
@@ -646,6 +660,9 @@ color: #FFFFFF;
 @media (max-width: 337px){
     #burg-icon #imgplus {
         margin-left: 15px !important;
+    }
+    #burg-close{
+        margin-left: 15px !important;  
     }
     .main-header-left .main-header-left-donation {
         margin-right: 22px !important;
